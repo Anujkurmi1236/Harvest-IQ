@@ -1,6 +1,5 @@
-
 def main():
-    print("Hello from backend!")
+    print("Hello from harvest-iq!")
 
 
 if __name__ == "__main__":
