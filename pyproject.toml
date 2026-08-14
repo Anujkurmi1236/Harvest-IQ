@@ -9,6 +9,7 @@ dependencies = [
     "django-celery-results>=2.6.0",
     "django-redis>=7.0.0",
     "djangorestframework>=3.18.0",
+    "langgraph>=1.2.11",
     "psycopg2-binary>=2.9.12",
     "psycopg[pool]>=3.3.4",
     "python-dotenv>=1.2.2",
