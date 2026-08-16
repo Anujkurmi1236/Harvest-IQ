@@ -9,6 +9,7 @@ dependencies = [
     "django-celery-results>=2.6.0",
     "django-redis>=7.0.0",
     "djangorestframework>=3.18.0",
+    "ipykernel>=7.3.0",
     "langgraph>=1.2.11",
     "numpy>=2.5.2",
     "pandas>=3.0.5",
