@@ -1,0 +1,292 @@
+Year
+Data_Reliability
+Area harvested
+fertprod__Ammonia, anhydrous__Export quantity
+fertprod__Ammonia, anhydrous__Export value
+fertprod__Ammonia, anhydrous__Import quantity
+fertprod__Ammonia, anhydrous__Import value
+fertprod__Ammonium nitrate (AN)__Agricultural Use
+fertprod__Ammonium nitrate (AN)__Export quantity
+fertprod__Ammonium nitrate (AN)__Export value
+fertprod__Ammonium nitrate (AN)__Import quantity
+fertprod__Ammonium nitrate (AN)__Import value
+fertprod__Ammonium nitrate (AN)__Production
+fertprod__Ammonium sulphate__Agricultural Use
+fertprod__Ammonium sulphate__Export quantity
+fertprod__Ammonium sulphate__Export value
+fertprod__Ammonium sulphate__Import quantity
+fertprod__Ammonium sulphate__Import value
+fertprod__Ammonium sulphate__Production
+fertprod__Calcium ammonium nitrate (CAN) and other mixtures with calcium carbonate__Agricultural Use
+fertprod__Calcium ammonium nitrate (CAN) and other mixtures with calcium carbonate__Export quantity
+fertprod__Calcium ammonium nitrate (CAN) and other mixtures with calcium carbonate__Export value
+fertprod__Calcium ammonium nitrate (CAN) and other mixtures with calcium carbonate__Import quantity
+fertprod__Calcium ammonium nitrate (CAN) and other mixtures with calcium carbonate__Import value
+fertprod__Calcium ammonium nitrate (CAN) and other mixtures with calcium carbonate__Production
+fertprod__Diammonium phosphate (DAP)__Agricultural Use
+fertprod__Diammonium phosphate (DAP)__Export quantity
+fertprod__Diammonium phosphate (DAP)__Export value
+fertprod__Diammonium phosphate (DAP)__Import quantity
+fertprod__Diammonium phosphate (DAP)__Import value
+fertprod__Diammonium phosphate (DAP)__Production
+fertprod__Fertilizers n.e.c.__Export quantity
+fertprod__Fertilizers n.e.c.__Export value
+fertprod__Fertilizers n.e.c.__Import quantity
+fertprod__Fertilizers n.e.c.__Import value
+fertprod__Monoammonium phosphate (MAP)__Agricultural Use
+fertprod__Monoammonium phosphate (MAP)__Export quantity
+fertprod__Monoammonium phosphate (MAP)__Export value
+fertprod__Monoammonium phosphate (MAP)__Import quantity
+fertprod__Monoammonium phosphate (MAP)__Import value
+fertprod__Monoammonium phosphate (MAP)__Production
+fertprod__NPK fertilizers__Agricultural Use
+fertprod__NPK fertilizers__Export quantity
+fertprod__NPK fertilizers__Export value
+fertprod__NPK fertilizers__Import quantity
+fertprod__NPK fertilizers__Import value
+fertprod__NPK fertilizers__Production
+fertprod__Other NP compounds__Agricultural Use
+fertprod__Other NP compounds__Export quantity
+fertprod__Other NP compounds__Export value
+fertprod__Other NP compounds__Import quantity
+fertprod__Other NP compounds__Import value
+fertprod__Other NP compounds__Production
+fertprod__Other nitrogenous fertilizers, n.e.c.__Agricultural Use
+fertprod__Other nitrogenous fertilizers, n.e.c.__Export quantity
+fertprod__Other nitrogenous fertilizers, n.e.c.__Export value
+fertprod__Other nitrogenous fertilizers, n.e.c.__Import quantity
+fertprod__Other nitrogenous fertilizers, n.e.c.__Import value
+fertprod__Other nitrogenous fertilizers, n.e.c.__Production
+fertprod__Other phosphatic fertilizers, n.e.c.__Agricultural Use
+fertprod__Other phosphatic fertilizers, n.e.c.__Export quantity
+fertprod__Other phosphatic fertilizers, n.e.c.__Export value
+fertprod__Other phosphatic fertilizers, n.e.c.__Import quantity
+fertprod__Other phosphatic fertilizers, n.e.c.__Import value
+fertprod__Other phosphatic fertilizers, n.e.c.__Production
+fertprod__Other potassic fertilizers, n.e.c.__Agricultural Use
+fertprod__Other potassic fertilizers, n.e.c.__Export quantity
+fertprod__Other potassic fertilizers, n.e.c.__Export value
+fertprod__Other potassic fertilizers, n.e.c.__Import quantity
+fertprod__Other potassic fertilizers, n.e.c.__Import value
+fertprod__PK compounds__Export quantity
+fertprod__PK compounds__Export value
+fertprod__PK compounds__Import quantity
+fertprod__PK compounds__Import value
+fertprod__Phosphate rock__Agricultural Use
+fertprod__Phosphate rock__Export quantity
+fertprod__Phosphate rock__Export value
+fertprod__Phosphate rock__Import quantity
+fertprod__Phosphate rock__Import value
+fertprod__Phosphate rock__Production
+fertprod__Potassium chloride (muriate of potash) (MOP)__Agricultural Use
+fertprod__Potassium chloride (muriate of potash) (MOP)__Export quantity
+fertprod__Potassium chloride (muriate of potash) (MOP)__Export value
+fertprod__Potassium chloride (muriate of potash) (MOP)__Import quantity
+fertprod__Potassium chloride (muriate of potash) (MOP)__Import value
+fertprod__Potassium chloride (muriate of potash) (MOP)__Production
+fertprod__Potassium nitrate__Agricultural Use
+fertprod__Potassium nitrate__Export quantity
+fertprod__Potassium nitrate__Export value
+fertprod__Potassium nitrate__Import quantity
+fertprod__Potassium nitrate__Import value
+fertprod__Potassium nitrate__Production
+fertprod__Potassium sulphate (sulphate of potash) (SOP)__Agricultural Use
+fertprod__Potassium sulphate (sulphate of potash) (SOP)__Export quantity
+fertprod__Potassium sulphate (sulphate of potash) (SOP)__Export value
+fertprod__Potassium sulphate (sulphate of potash) (SOP)__Import quantity
+fertprod__Potassium sulphate (sulphate of potash) (SOP)__Import value
+fertprod__Potassium sulphate (sulphate of potash) (SOP)__Production
+fertprod__Sodium nitrate__Agricultural Use
+fertprod__Sodium nitrate__Export quantity
+fertprod__Sodium nitrate__Export value
+fertprod__Sodium nitrate__Import quantity
+fertprod__Sodium nitrate__Import value
+fertprod__Superphosphates above 35%__Agricultural Use
+fertprod__Superphosphates above 35%__Export quantity
+fertprod__Superphosphates above 35%__Export value
+fertprod__Superphosphates above 35%__Import quantity
+fertprod__Superphosphates above 35%__Import value
+fertprod__Superphosphates above 35%__Production
+fertprod__Superphosphates, other__Agricultural Use
+fertprod__Superphosphates, other__Export quantity
+fertprod__Superphosphates, other__Export value
+fertprod__Superphosphates, other__Import quantity
+fertprod__Superphosphates, other__Import value
+fertprod__Superphosphates, other__Production
+fertprod__Urea and ammonium nitrate solutions (UAN)__Export quantity
+fertprod__Urea and ammonium nitrate solutions (UAN)__Export value
+fertprod__Urea and ammonium nitrate solutions (UAN)__Import quantity
+fertprod__Urea and ammonium nitrate solutions (UAN)__Import value
+fertprod__Urea__Agricultural Use
+fertprod__Urea__Export quantity
+fertprod__Urea__Export value
+fertprod__Urea__Import quantity
+fertprod__Urea__Import value
+fertprod__Urea__Production
+fertnut__Nutrient nitrogen N (total)__Agricultural Use
+fertnut__Nutrient nitrogen N (total)__Export quantity
+fertnut__Nutrient nitrogen N (total)__Import quantity
+fertnut__Nutrient nitrogen N (total)__Production
+fertnut__Nutrient nitrogen N (total)__Use per area of cropland
+fertnut__Nutrient nitrogen N (total)__Use per capita
+fertnut__Nutrient nitrogen N (total)__Use per value of agricultural production
+fertnut__Nutrient phosphate P2O5 (total)__Agricultural Use
+fertnut__Nutrient phosphate P2O5 (total)__Export quantity
+fertnut__Nutrient phosphate P2O5 (total)__Import quantity
+fertnut__Nutrient phosphate P2O5 (total)__Production
+fertnut__Nutrient phosphate P2O5 (total)__Use per area of cropland
+fertnut__Nutrient phosphate P2O5 (total)__Use per capita
+fertnut__Nutrient phosphate P2O5 (total)__Use per value of agricultural production
+fertnut__Nutrient potash K2O (total)__Agricultural Use
+fertnut__Nutrient potash K2O (total)__Export quantity
+fertnut__Nutrient potash K2O (total)__Import quantity
+fertnut__Nutrient potash K2O (total)__Production
+fertnut__Nutrient potash K2O (total)__Use per area of cropland
+fertnut__Nutrient potash K2O (total)__Use per capita
+fertnut__Nutrient potash K2O (total)__Use per value of agricultural production
+soil__Atmospheric Deposition__Cropland nutrient flow
+soil__Atmospheric Deposition__Cropland nutrient flow per unit area
+soil__Biological Fixation__Cropland nutrient flow
+soil__Biological Fixation__Cropland nutrient flow per unit area
+soil__Crop Removal__Cropland nutrient flow
+soil__Crop Removal__Cropland nutrient flow per unit area
+soil__Input__Cropland nutrient flow
+soil__Input__Cropland nutrient flow per unit area
+soil__Manure applied to Soils__Cropland nutrient flow
+soil__Manure applied to Soils__Cropland nutrient flow per unit area
+soil__Outputs__Cropland nutrient flow
+soil__Outputs__Cropland nutrient flow per unit area
+soil__Soil nutrient budget__Cropland nutrient flow
+soil__Soil nutrient budget__Cropland nutrient flow per unit area
+soil__Synthetic Fertilizers__Cropland nutrient flow
+soil__Synthetic Fertilizers__Cropland nutrient flow per unit area
+temp__April__Standard Deviation
+temp__April__Temperature change
+temp__August__Standard Deviation
+temp__August__Temperature change
+temp__December__Standard Deviation
+temp__December__Temperature change
+temp__Dec–Jan–Feb__Standard Deviation
+temp__Dec–Jan–Feb__Temperature change
+temp__February__Standard Deviation
+temp__February__Temperature change
+temp__January__Standard Deviation
+temp__January__Temperature change
+temp__July__Standard Deviation
+temp__July__Temperature change
+temp__June__Standard Deviation
+temp__June__Temperature change
+temp__Jun–Jul–Aug__Standard Deviation
+temp__Jun–Jul–Aug__Temperature change
+temp__March__Standard Deviation
+temp__March__Temperature change
+temp__Mar–Apr–May__Standard Deviation
+temp__Mar–Apr–May__Temperature change
+temp__May__Standard Deviation
+temp__May__Temperature change
+temp__Meteorological year__Standard Deviation
+temp__Meteorological year__Temperature change
+temp__November__Standard Deviation
+temp__November__Temperature change
+temp__October__Standard Deviation
+temp__October__Temperature change
+temp__September__Standard Deviation
+temp__September__Temperature change
+temp__Sep–Oct–Nov__Standard Deviation
+temp__Sep–Oct–Nov__Temperature change
+item_Almonds, in shell
+item_Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw
+item_Apples
+item_Apricots
+item_Areca nuts
+item_Bananas
+item_Barley
+item_Beans, dry
+item_Cabbages
+item_Cantaloupes and other melons
+item_Carrots and turnips
+item_Cashew nuts, in shell
+item_Cassava, fresh
+item_Castor oil seeds
+item_Cauliflowers and broccoli
+item_Cereals, primary
+item_Cherries
+item_Chick peas, dry
+item_Chillies and peppers, dry (Capsicum spp., Pimenta spp.), raw
+item_Chillies and peppers, green (Capsicum spp. and Pimenta spp.)
+item_Citrus Fruit, Total
+item_Cocoa beans
+item_Coconuts, in shell
+item_Coffee, green
+item_Cucumbers and gherkins
+item_Eggplants (aubergines)
+item_Fibre Crops, Fibre Equivalent
+item_Figs
+item_Fruit Primary
+item_Ginger, raw
+item_Grapes
+item_Green garlic
+item_Groundnuts, excluding shelled
+item_Jute, raw or retted
+item_Kenaf, and other textile bast fibres, raw or retted
+item_Kiwi fruit
+item_Lemons and limes
+item_Lentils, dry
+item_Lettuce and chicory
+item_Linseed
+item_Maize (corn)
+item_Mangoes, guavas and mangosteens
+item_Millet
+item_Natural rubber in primary forms
+item_Nutmeg, mace, cardamoms, raw
+item_Oilcrops, Cake Equivalent
+item_Oilcrops, Oil Equivalent
+item_Okra
+item_Onions and shallots, dry (excluding dehydrated)
+item_Oranges
+item_Other beans, green
+item_Other berries and fruits of the genus vaccinium n.e.c.
+item_Other citrus fruit, n.e.c.
+item_Other fruits, n.e.c.
+item_Other oil seeds, n.e.c.
+item_Other pulses n.e.c.
+item_Other stimulant, spice and aromatic crops, n.e.c.
+item_Other stone fruits
+item_Other tropical fruits, n.e.c.
+item_Other vegetables, fresh n.e.c.
+item_Papayas
+item_Peaches and nectarines
+item_Pears
+item_Peas, dry
+item_Peas, green
+item_Pepper (Piper spp.), raw
+item_Pigeon peas, dry
+item_Pineapples
+item_Plums and sloes
+item_Pomelos and grapefruits
+item_Potatoes
+item_Pulses, Total
+item_Pumpkins, squash and gourds
+item_Rape or colza seed
+item_Rice
+item_Roots and Tubers, Total
+item_Safflower seed
+item_Seed cotton, unginned
+item_Sesame seed
+item_Sorghum
+item_Soya beans
+item_Strawberries
+item_Sugar Crops Primary
+item_Sugar cane
+item_Sunflower seed
+item_Sweet potatoes
+item_Tangerines, mandarins, clementines
+item_Tea leaves
+item_Tomatoes
+item_Treenuts, Total
+item_Unmanufactured tobacco
+item_Vegetables Primary
+item_Walnuts, in shell
+item_Watermelons
+item_Wheat
+item_Yams

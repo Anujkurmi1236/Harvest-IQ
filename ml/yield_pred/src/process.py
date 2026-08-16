@@ -3,239 +3,132 @@ import numpy as np
 import os
 from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parents[1]
+DATA_DIR = BASE_DIR / "data" / "processed" / "req_data"
+OUT_DIR = BASE_DIR / "output"
+OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-def process_fertilizer_product_data():
+CROPS_FILE = "india_Production_Crops_Livestock_E_All_Data_(Normalized).csv"
+FERT_PRODUCT_FILE = "india_Inputs_FertilizersProduct_E_All_Data_(Normalized).csv"
+FERT_NUTRIENT_FILE = "india_Inputs_FertilizersNutrient_E_All_Data_(Normalized).csv"
+SOIL_FILE = "india_Environment_Soil_nutrient_budget_E_All_Data_(Normalized).csv"
+TEMP_FILE = "india_Environment_Temperature_change_E_All_Data_(Normalized).csv"
+
+MAX_ITEM_CATEGORIES = 100  
+
+def load(name):
+    path = DATA_DIR / name
+    if not path.exists():
+        raise FileNotFoundError(f"Missing data file: {path}")
+    return pd.read_csv(path)
+
+
+def build_crop_level_table():
     """
-    Process Fertilizer Product data: predict 'Import value' using Year, Import quantity, and Data Reliability.
-    FIXED: Reliability is now computed per (Year, Area, Item) combination, not just Year.
+    Pivot Production_Crops_Livestock to one row per (Year, Item), keeping
+    only genuine crop yield rows (Unit == 'kg/ha') - this drops livestock
+    rows reported in 'No/An' (head count) or carcass-weight units, which
+    aren't comparable to crop yield and would corrupt a single regression
+    target if mixed in.
     """
-    df = pd.read_csv("ml/yield_pred/data/processed/req_data/india_Inputs_FertilizersProduct_E_All_Data_(Normalized).csv")
+    df = load(CROPS_FILE)
+
+    yield_items = df.loc[
+        (df["Element"] == "Yield") & (df["Unit"] == "kg/ha"), "Item"
+    ].unique()
+    df = df[df["Item"].isin(yield_items)].copy()
 
     df_wide = df.pivot_table(
-        index=["Year", "Area", "Item"],
-        columns="Element",
-        values="Value",
-        aggfunc="first"  # In case of duplicates, take the first value
-    ).reset_index()
-
-    # Flatten column names if they become multi-index
-    df_wide.columns.name = None
-    
-    # Create Data_Reliability feature: 1 = Official ('A'), 0 = Estimated/Mirrored ('X')
-    # Map flags from original data to wide format by (Year, Area, Item)
-    flag_map = df.groupby(['Year', 'Area', 'Item'])['Flag'].apply(
-        lambda x: 1 if (x == 'A').any() else 0
-    ).reset_index()
-    flag_map.columns = ['Year', 'Area', 'Item', 'Data_Reliability']
-    
-    df_wide = df_wide.merge(flag_map, on=['Year', 'Area', 'Item'], how='left')
-    df_wide = df_wide.fillna(0)
-
-    # Define X and y
-    feature_cols = ['Year', 'Import quantity', 'Data_Reliability']
-    target_col = 'Import value'
-    
-    # Validate required columns exist
-    missing_cols = [col for col in feature_cols + [target_col] if col not in df_wide.columns]
-    if missing_cols:
-        raise ValueError(f"Missing columns after pivot: {missing_cols}")
-
-    X = df_wide[feature_cols].to_numpy(dtype=np.float32)
-    y = df_wide[target_col].to_numpy(dtype=np.float32)
-
-    # Ensure output directory exists
-    os.makedirs('ml/yield_pred/data/features', exist_ok=True)
-    
-    # Save
-    np.save('ml/yield_pred/data/features/india_input_fertilizer_product_features.npy', X)
-    np.save('ml/yield_pred/data/features/india_input_fertilizer_product_target.npy', y)
-
-    print(f"Fertilizer Product - Shape: {X.shape}")
-    print(f"Fertilizer Product - Features: {feature_cols}")
-
-
-def process_fertilizer_nutrient_data():
-    """
-    Process Fertilizer Nutrient data: predict based on available elements.
-    """
-    df = pd.read_csv("ml/yield_pred/data/processed/req_data/india_Inputs_FertilizersNutrient_E_All_Data_(Normalized).csv")
-
-    df_wide = df.pivot_table(
-        index=["Year", "Area", "Item"],
-        columns="Element",
-        values="Value",
-        aggfunc="first"
+        index=["Year", "Item"], columns="Element", values="Value", aggfunc="first"
     ).reset_index()
     df_wide.columns.name = None
-    
-    # Create Data_Reliability feature
-    flag_map = df.groupby(['Year', 'Area', 'Item'])['Flag'].apply(
-        lambda x: 1 if (x == 'A').any() else 0
-    ).reset_index()
-    flag_map.columns = ['Year', 'Area', 'Item', 'Data_Reliability']
-    
-    df_wide = df_wide.merge(flag_map, on=['Year', 'Area', 'Item'], how='left')
-    df_wide = df_wide.fillna(0)
 
-    # Use available Import columns if they exist
-    feature_cols = ['Year', 'Data_Reliability']
-    target_col = None
-    
-    # Check for Import value or similar target
-    available_cols = df_wide.columns.tolist()
-    if 'Import value' in available_cols:
-        target_col = 'Import value'
-        if 'Import quantity' in available_cols:
-            feature_cols.insert(1, 'Import quantity')
-    
-    if target_col is None:
-        print("Warning: No 'Import value' column found. Skipping fertilizer nutrient processing.")
-        return
-    
-    os.makedirs('ml/yield_pred/data/features', exist_ok=True)
-    
-    X = df_wide[feature_cols].to_numpy(dtype=np.float32)
-    y = df_wide[target_col].to_numpy(dtype=np.float32)
+    flag_map = (
+        df.groupby(["Year", "Item"])["Flag"]
+        .apply(lambda x: 1 if (x == "A").any() else 0)
+        .reset_index()
+    )
+    flag_map.columns = ["Year", "Item", "Data_Reliability"]
+    df_wide = df_wide.merge(flag_map, on=["Year", "Item"], how="left")
 
-    np.save('ml/yield_pred/data/features/india_input_fertilizer_nutrient_features.npy', X)
-    np.save('ml/yield_pred/data/features/india_input_fertilizer_nutrient_target.npy', y)
+    keep_cols = ["Year", "Item", "Data_Reliability"]
+    for c in ["Yield", "Area harvested", "Production"]:
+        if c in df_wide.columns:
+            keep_cols.append(c)
+    df_wide = df_wide[keep_cols]
 
-    print(f"Fertilizer Nutrient - Shape: {X.shape}")
-    print(f"Fertilizer Nutrient - Features: {feature_cols}")
+    print(f"Crop-level table: {df_wide.shape}, {df_wide['Item'].nunique()} crops, "
+          f"years {df_wide['Year'].min()}-{df_wide['Year'].max()}")
+    return df_wide
 
 
-def process_production_crops_data():
+def build_year_level_table(filename, group_key, prefix):
     """
-    Process Production Crops & Livestock data.
+    Pivot a national (no crop breakdown) dataset to one row per Year.
+    Columns become '{prefix}__{group_key value}__{Element}', e.g.
+    'fertprod__Urea__Import value'. This keeps every Item/Months x Element
+    combination as its own yearly feature instead of forcing an arbitrary
+    single target/column choice.
     """
-    df = pd.read_csv("ml/yield_pred/data/processed/req_data/india_Production_Crops_Livestock_E_All_Data_(Normalized).csv")
+    df = load(filename)
+    df["_col"] = prefix + "__" + df[group_key].astype(str) + "__" + df["Element"].astype(str)
 
-    df_wide = df.pivot_table(
-        index=["Year", "Area", "Item"],
-        columns="Element",
-        values="Value",
-        aggfunc="first"
-    ).reset_index()
-    df_wide.columns.name = None
-    
-    # Create Data_Reliability feature
-    flag_map = df.groupby(['Year', 'Area', 'Item'])['Flag'].apply(
-        lambda x: 1 if (x == 'A').any() else 0
-    ).reset_index()
-    flag_map.columns = ['Year', 'Area', 'Item', 'Data_Reliability']
-    
-    df_wide = df_wide.merge(flag_map, on=['Year', 'Area', 'Item'], how='left')
-    df_wide = df_wide.fillna(0)
+    wide = df.pivot_table(index="Year", columns="_col", values="Value", aggfunc="mean")
+    wide.columns.name = None
+    wide = wide.reset_index()
 
-    os.makedirs('ml/yield_pred/data/features', exist_ok=True)
-    
-    # Production is typically the target; use other available metrics as features
-    feature_cols = ['Year', 'Data_Reliability']
-    target_col = None
-    
-    available_cols = df_wide.columns.tolist()
-    if 'Production' in available_cols:
-        target_col = 'Production'
-    
-    if target_col is None:
-        print("Warning: No 'Production' column found. Skipping production crops processing.")
-        return
-    
-    X = df_wide[feature_cols].to_numpy(dtype=np.float32)
-    y = df_wide[target_col].to_numpy(dtype=np.float32)
-
-    np.save('ml/yield_pred/data/features/india_production_crops_features.npy', X)
-    np.save('ml/yield_pred/data/features/india_production_crops_target.npy', y)
-
-    print(f"Production Crops - Shape: {X.shape}")
-    print(f"Production Crops - Features: {feature_cols}")
+    print(f"{prefix} year-level table: {wide.shape} (from {filename})")
+    return wide
 
 
-def process_environment_data():
-    """
-    Process Environment (Temperature & Soil Nutrient) data.
-    Handles datasets with 'Months' instead of 'Item'.
-    """
-    datasets = [
-        ("Temperature", "india_Environment_Temperature_change_E_All_Data_(Normalized).csv"),
-        ("Soil_Nutrient", "india_Environment_Soil_nutrient_budget_E_All_Data_(Normalized).csv")
-    ]
-    
-    os.makedirs('ml/yield_pred/data/features', exist_ok=True)
-    
-    for name, filename in datasets:
-        filepath = f"ml/yield_pred/data/processed/req_data/{filename}"
-        
-        if not os.path.exists(filepath):
-            print(f"Warning: File not found {filepath}")
-            continue
-        
-        df = pd.read_csv(filepath)
-        
-        # Environment data uses 'Months' instead of 'Item'
-        # Determine the grouping key dynamically
-        groupby_key = None
-        if 'Item' in df.columns:
-            groupby_key = 'Item'
-        elif 'Months' in df.columns:
-            groupby_key = 'Months'
-        else:
-            print(f"Warning: No 'Item' or 'Months' column found in {name} data.")
-            continue
-        
-        df_wide = df.pivot_table(
-            index=["Year", "Area", groupby_key],
-            columns="Element",
-            values="Value",
-            aggfunc="first"
-        ).reset_index()
-        df_wide.columns.name = None
-        
-        # Create Data_Reliability feature
-        flag_map = df.groupby(['Year', 'Area', groupby_key])['Flag'].apply(
-            lambda x: 1 if (x == 'A').any() else 0
-        ).reset_index()
-        flag_map.columns = ['Year', 'Area', groupby_key, 'Data_Reliability']
-        
-        df_wide = df_wide.merge(flag_map, on=['Year', 'Area', groupby_key], how='left')
-        df_wide = df_wide.fillna(0)
-        
-        # Use Year and Reliability as baseline features
-        feature_cols = ['Year', 'Data_Reliability']
-        
-        # Include first available numeric column as target
-        available_cols = [c for c in df_wide.columns if c not in ['Year', 'Area', groupby_key, 'Data_Reliability']]
-        if not available_cols:
-            print(f"Warning: No numeric columns found in {name} data.")
-            continue
-        
-        target_col = available_cols[0]
-        
-        X = df_wide[feature_cols].to_numpy(dtype=np.float32)
-        y = df_wide[target_col].to_numpy(dtype=np.float32)
-        
-        np.save(f'ml/yield_pred/data/features/india_environment_{name}_features.npy', X)
-        np.save(f'ml/yield_pred/data/features/india_environment_{name}_target.npy', y)
-        
-        print(f"Environment {name} - Shape: {X.shape}")
-        print(f"Environment {name} - Target: {target_col}")
+def main():
+    crop_tbl = build_crop_level_table()
+    fert_product_tbl = build_year_level_table(FERT_PRODUCT_FILE, "Item", "fertprod")
+    fert_nutrient_tbl = build_year_level_table(FERT_NUTRIENT_FILE, "Item", "fertnut")
+    soil_tbl = build_year_level_table(SOIL_FILE, "Item", "soil")
+    temp_tbl = build_year_level_table(TEMP_FILE, "Months", "temp")
+
+    merged = crop_tbl.copy()
+    for tbl in [fert_product_tbl, fert_nutrient_tbl, soil_tbl, temp_tbl]:
+        merged = merged.merge(tbl, on="Year", how="left")
+
+    # Crop identity - one-hot encode (97 crops, all kept as their own category)
+    item_dummies = pd.get_dummies(merged["Item"], prefix="item", dtype=np.float32)
+    merged = pd.concat([merged, item_dummies], axis=1)
+
+    target_col = "Yield"
+    merged = merged.dropna(subset=[target_col])  # never zero-fill a missing label
+
+    macro_feature_cols = [c for c in merged.columns
+                           if c.startswith(("fertprod__", "fertnut__", "soil__", "temp__"))]
+    merged[macro_feature_cols] = merged[macro_feature_cols].fillna(0)
+
+    feature_cols = (
+        ["Year", "Data_Reliability"]
+        + (["Area harvested"] if "Area harvested" in merged.columns else [])
+        + macro_feature_cols
+        + list(item_dummies.columns)
+    )
+
+    merged.to_csv(OUT_DIR / "merged_training_table.csv", index=False)
+
+    X = merged[feature_cols].to_numpy(dtype=np.float32)
+    y = merged[target_col].to_numpy(dtype=np.float32)
+    years = merged["Year"].to_numpy()
+
+    np.save(OUT_DIR / "X.npy", X)
+    np.save(OUT_DIR / "y.npy", y)
+    np.save(OUT_DIR / "years.npy", years)
+    with open(OUT_DIR / "feature_names.txt", "w") as f:
+        f.write("\n".join(feature_cols))
+
+    print(f"\nFinal training table: X={X.shape}, y={y.shape}")
+    print(f"Target: {target_col} (kg/ha), rows dropped for missing target: "
+          f"{len(crop_tbl) - len(merged)}")
+    print(f"Feature groups -> crop-level: {2 + ('Area harvested' in merged.columns)}, "
+          f"macro (fert/soil/temp): {len(macro_feature_cols)}, "
+          f"crop one-hot: {len(item_dummies.columns)}")
 
 
-def process_all_data():
-    """
-    Process all available datasets and generate .npy files.
-    """
-    print("Starting data processing for all datasets...\n")
-    
-    process_fertilizer_product_data()
-    print()
-    
-    process_fertilizer_nutrient_data()
-    print()
-    
-    process_production_crops_data()
-    print()
-    
-    process_environment_data()
-    
-    print("\n✓ All data processing completed!")
+if __name__ == "__main__":
+    main()
