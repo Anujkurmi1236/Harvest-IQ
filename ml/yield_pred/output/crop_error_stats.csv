@@ -1,0 +1,96 @@
+Item,n_test_rows,mape,rmse,low_confidence
+Lettuce and chicory,10,2.5478272,164.76953,False
+Other stone fruits,10,2.7983527,132.91055,False
+Pomelos and grapefruits,2,6.21065,1542.0869,True
+Bananas,10,6.5157785,2798.465,False
+Papayas,10,8.103377,3876.2869,False
+Eggplants (aubergines),10,8.36487,1765.8748,False
+Plums and sloes,10,8.939277,339.37317,False
+"Other fruits, n.e.c.",10,9.063318,1035.4335,False
+Pears,10,9.736155,872.82214,False
+"Walnuts, in shell",10,10.245945,350.11893,False
+Cantaloupes and other melons,10,12.142519,2958.1477,False
+Carrots and turnips,10,12.379351,2993.9575,False
+Peaches and nectarines,10,12.770414,836.6392,False
+Cauliflowers and broccoli,10,12.956508,2523.8872,False
+"Roots and Tubers, Total",10,13.541847,3762.9016,False
+Areca nuts,10,13.880488,322.7658,False
+"Chillies and peppers, dry (Capsicum spp., Pimenta spp.), raw",10,14.189237,412.90506,False
+Cabbages,10,14.988147,3480.925,False
+"Onions and shallots, dry (excluding dehydrated)",10,15.836805,2962.836,False
+"Other tropical fruits, n.e.c.",10,16.508268,1636.1134,False
+Sugar Crops Primary,10,16.665928,15862.864,False
+Sugar cane,10,16.858278,16037.394,False
+Pineapples,10,17.319637,2961.555,False
+Potatoes,10,18.302708,4715.259,False
+Cherries,10,18.57986,556.61084,False
+Rape or colza seed,10,19.873089,380.0678,False
+Millet,10,20.641602,303.10553,False
+"Seed cotton, unginned",10,20.81376,293.324,False
+Vegetables Primary,10,21.054798,3358.673,False
+"Coconuts, in shell",10,21.447458,1597.9935,False
+Apples,10,21.828716,2026.408,False
+Barley,10,22.897995,643.8009,False
+"Other vegetables, fresh n.e.c.",10,22.960306,3386.3408,False
+Cucumbers and gherkins,10,23.111217,3527.0242,False
+Lemons and limes,10,23.117908,2798.3193,False
+Watermelons,10,23.175596,6463.703,False
+Other berries and fruits of the genus vaccinium n.e.c.,10,24.477406,1716.9014,False
+"Peas, green",10,24.739983,2600.5618,False
+"Cassava, fresh",10,25.316395,7777.229,False
+Sweet potatoes,10,25.68244,2923.3962,False
+Castor oil seeds,10,25.8233,478.5022,False
+Okra,10,25.957134,3266.2588,False
+Tomatoes,10,26.35111,6603.6626,False
+Rice,10,26.787338,1131.0094,False
+"Mangoes, guavas and mangosteens",10,27.67452,2687.9836,False
+Fruit Primary,10,28.388123,4347.7676,False
+"Pumpkins, squash and gourds",10,28.957138,4746.5645,False
+Wheat,10,29.965866,1068.5966,False
+"Other beans, green",10,30.314564,2968.522,False
+Grapes,10,31.160131,6894.065,False
+"Citrus Fruit, Total",10,31.674606,4149.9805,False
+"Cereals, primary",10,31.857925,1122.1722,False
+"Chillies and peppers, green (Capsicum spp. and Pimenta spp.)",10,33.384895,3884.3013,False
+Green garlic,10,33.41035,3427.2874,False
+Tea leaves,10,34.488403,3322.2705,False
+"Other citrus fruit, n.e.c.",10,37.672,3320.392,False
+"Other stimulant, spice and aromatic crops, n.e.c.",10,39.709473,790.69135,False
+"Jute, raw or retted",10,39.730797,1018.0177,False
+Oranges,10,40.391315,7033.5894,False
+"Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw",10,40.463543,371.75027,False
+"Ginger, raw",10,42.252766,5135.0293,False
+Soya beans,10,42.463295,604.8805,False
+Apricots,10,43.527477,1306.8027,False
+Strawberries,10,44.551323,3564.1997,False
+Maize (corn),10,46.24192,1489.1655,False
+"Coffee, green",10,46.318275,348.93396,False
+Kiwi fruit,10,50.310127,1385.8931,False
+Yams,10,50.549477,12693.138,False
+"Chick peas, dry",10,51.92351,555.2029,False
+Natural rubber in primary forms,10,56.80375,1419.7471,False
+"Tangerines, mandarins, clementines",10,57.32898,7441.4653,False
+Figs,10,66.88238,1845.4686,False
+"Treenuts, Total",10,80.86949,688.51404,False
+Unmanufactured tobacco,10,82.973976,1453.9479,False
+"Peas, dry",10,90.28884,1033.4368,False
+"Pulses, Total",10,94.13991,791.88934,False
+"Lentils, dry",10,110.18457,969.1528,False
+"Cashew nuts, in shell",10,141.45279,954.73267,False
+"Fibre Crops, Fibre Equivalent",10,153.90633,880.85114,False
+"Beans, dry",10,154.01358,975.3076,False
+"Oilcrops, Cake Equivalent",10,160.32315,1031.8358,False
+"Kenaf, and other textile bast fibres, raw or retted",10,160.94414,1915.595,False
+"Pigeon peas, dry",10,166.75157,1369.6641,False
+"Groundnuts, excluding shelled",10,187.35245,3844.269,False
+"Almonds, in shell",10,221.31754,1900.6937,False
+Sesame seed,10,243.2518,1121.6052,False
+"Pepper (Piper spp.), raw",10,247.0697,1086.8867,False
+"Nutmeg, mace, cardamoms, raw",10,252.29707,955.3887,False
+Sunflower seed,10,283.37207,2592.5894,False
+Linseed,10,364.12714,2138.3225,False
+Safflower seed,10,374.03168,2377.1528,False
+"Oilcrops, Oil Equivalent",10,376.44492,1194.3232,False
+Cocoa beans,10,459.2893,1114.2828,False
+Sorghum,10,468.8377,5209.0327,False
+"Other oil seeds, n.e.c.",10,651.5407,2013.1897,False

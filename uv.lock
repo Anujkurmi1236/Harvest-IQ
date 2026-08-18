@@ -468,7 +468,10 @@ dependencies = [
     { name = "django-celery-results" },
     { name = "django-redis" },
     { name = "djangorestframework" },
+    { name = "importnb" },
     { name = "ipykernel" },
+    { name = "langchain" },
+    { name = "langchain-core" },
     { name = "langgraph" },
     { name = "numpy" },
     { name = "pandas" },
@@ -485,7 +488,10 @@ requires-dist = [
     { name = "django-celery-results", specifier = ">=2.6.0" },
     { name = "django-redis", specifier = ">=7.0.0" },
     { name = "djangorestframework", specifier = ">=3.18.0" },
+    { name = "importnb", specifier = ">=2023.11.1" },
     { name = "ipykernel", specifier = ">=7.3.0" },
+    { name = "langchain", specifier = ">=1.3.15" },
+    { name = "langchain-core", specifier = ">=1.5.4" },
     { name = "langgraph", specifier = ">=1.2.11" },
     { name = "numpy", specifier = ">=2.5.2" },
     { name = "pandas", specifier = ">=3.0.5" },
@@ -531,6 +537,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/cd/63/9496c57188a2ee585e0f1db071d75089a11e98aa86eb99d9d7618fc1edce/idna-3.18.tar.gz", hash = "sha256:ffb385a7e039654cef1ab9ef32c6fafe283c0c0467bba1d9029738ce4a14a848", size = 196711, upload-time = "2026-06-02T14:34:07.794Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/1e/5e/d4e9f1a599fb8e573b7b87160658329fbf28d19eac2718f51fc3def3aa5a/idna-3.18-py3-none-any.whl", hash = "sha256:7f952cbe720b688055e3f87de14f5c3e5fdaa8bc3928985c4077ca689de849a2", size = 65455, upload-time = "2026-06-02T14:34:06.319Z" },
+]
+
+[[package]]
+name = "importnb"
+version = "2023.11.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/02/a1/4fa06bd014d43f689915878295748243e7ec199a08ab8fc2c51b4e4c2ad4/importnb-2023.11.1.tar.gz", hash = "sha256:95a745ac7299a81f776e8210e8ad77f05731dfce7bad79eb85e08ed37a2488c0", size = 411404, upload-time = "2023-11-02T04:04:32.344Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/42/f0/7f12bb74fc6c64c509c30ca01138c214dede42a78a7c33175c2d09ea4a2b/importnb-2023.11.1-py3-none-any.whl", hash = "sha256:1a294ae2156c851a5794b49dc7b82995932f5116203ba3041de1aaf3ed3173b8", size = 45997, upload-time = "2023-11-02T04:04:33.835Z" },
 ]
 
 [[package]]
@@ -675,6 +690,20 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/b6/a5/607e533ed6c83ae1a696969b8e1c137dfebd5759a2e9682e26ff1b97740b/kombu-5.6.2.tar.gz", hash = "sha256:8060497058066c6f5aed7c26d7cd0d3b574990b09de842a8c5aaed0b92cc5a55", size = 472594, upload-time = "2025-12-29T20:30:07.779Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/fb/0f/834427d8c03ff1d7e867d3db3d176470c64871753252b21b4f4897d1fa45/kombu-5.6.2-py3-none-any.whl", hash = "sha256:efcfc559da324d41d61ca311b0c64965ea35b4c55cc04ee36e55386145dace93", size = 214219, upload-time = "2025-12-29T20:30:05.74Z" },
+]
+
+[[package]]
+name = "langchain"
+version = "1.3.15"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "langchain-core" },
+    { name = "langgraph" },
+    { name = "pydantic" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/6a/1c/b84579174a8e82ed79f4c3e0cd5a7f2323facc5ccd4d1b8390e7d175b663/langchain-1.3.15.tar.gz", hash = "sha256:ab4b775b9703f7e37babe0b325dbbaef25573bda60ecf79f7850bc875f252795", size = 665047, upload-time = "2026-08-11T19:10:52.455Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/09/8d/ae721f4d68ff79a17110cabc9cb39b4568b0e3f1fe0a379b926c3f81d175/langchain-1.3.15-py3-none-any.whl", hash = "sha256:c0d2d0d51ed7da249e8ab7487173872059a9dd46fb071d905957485b7334f987", size = 147001, upload-time = "2026-08-11T19:10:50.846Z" },
 ]
 
 [[package]]
