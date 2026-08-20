@@ -1,0 +1,807 @@
+Area Code,Area Code (M49),Area,Item Code,Item,Element Code,Element,Year Code,Year,Unit,Value,Flag
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5006,Area from CGLS,2015,2015,1000 ha,6676.350000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5006,Area from CGLS,2016,2016,1000 ha,6687.450000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5006,Area from CGLS,2017,2017,1000 ha,6700.200000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5006,Area from CGLS,2018,2018,1000 ha,6720.730000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5006,Area from CGLS,2019,2019,1000 ha,6736.240000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2001,2001,1000 ha,3758.690000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2002,2002,1000 ha,3773.760000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2003,2003,1000 ha,3778.340000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2004,2004,1000 ha,3780.670000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2005,2005,1000 ha,3784.350000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2006,2006,1000 ha,3789.930000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2007,2007,1000 ha,3794.050000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2008,2008,1000 ha,3801.210000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2009,2009,1000 ha,3807.040000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2010,2010,1000 ha,3811.600000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2011,2011,1000 ha,3818.940000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2012,2012,1000 ha,3828.170000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2013,2013,1000 ha,3835.810000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2014,2014,1000 ha,3848.230000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2015,2015,1000 ha,3857.960000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2016,2016,1000 ha,3867.330000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2017,2017,1000 ha,3872.620000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2018,2018,1000 ha,3881.540000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2019,2019,1000 ha,3890.600000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2020,2020,1000 ha,3904.440000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2021,2021,1000 ha,3910.540000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2022,2022,1000 ha,3921.530000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2023,2023,1000 ha,3943.110000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5007,Area from MODIS,2024,2024,1000 ha,3952.420000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,1992,1992,1000 ha,607.580000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,1993,1993,1000 ha,621.870000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,1994,1994,1000 ha,635.640000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,1995,1995,1000 ha,648.330000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,1996,1996,1000 ha,661.610000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,1997,1997,1000 ha,674.290000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,1998,1998,1000 ha,686.920000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,1999,1999,1000 ha,699.530000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2000,2000,1000 ha,713.750000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2001,2001,1000 ha,830.890000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2002,2002,1000 ha,933.360000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2003,2003,1000 ha,1031.390000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2004,2004,1000 ha,1132.140000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2005,2005,1000 ha,1208.770000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2006,2006,1000 ha,1281.680000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2007,2007,1000 ha,1357.860000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2008,2008,1000 ha,1420.570000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2009,2009,1000 ha,1481.140000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2010,2010,1000 ha,1540.110000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2011,2011,1000 ha,1603.700000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2012,2012,1000 ha,1699.490000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2013,2013,1000 ha,1829.310000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2014,2014,1000 ha,1945.990000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2015,2015,1000 ha,2016.930000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2016,2016,1000 ha,2026.740000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2017,2017,1000 ha,2091.820000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2018,2018,1000 ha,2128.130000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2019,2019,1000 ha,2197.530000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2020,2020,1000 ha,2238.060000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2021,2021,1000 ha,2351.140000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5008,Area from CCI_LC,2022,2022,1000 ha,2566.600000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5013,Area from WorldCover,2020,2020,1000 ha,5991.040000,E
+100,'356,India,6970,Artificial surfaces (including urban and associated areas),5013,Area from WorldCover,2021,2021,1000 ha,6822.890000,E
+100,'356,India,6971,Herbaceous crops,5006,Area from CGLS,2015,2015,1000 ha,186346.560000,E
+100,'356,India,6971,Herbaceous crops,5006,Area from CGLS,2016,2016,1000 ha,186260.180000,E
+100,'356,India,6971,Herbaceous crops,5006,Area from CGLS,2017,2017,1000 ha,186115.180000,E
+100,'356,India,6971,Herbaceous crops,5006,Area from CGLS,2018,2018,1000 ha,186077.570000,E
+100,'356,India,6971,Herbaceous crops,5006,Area from CGLS,2019,2019,1000 ha,185988.430000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2001,2001,1000 ha,181268.590000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2002,2002,1000 ha,180148.570000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2003,2003,1000 ha,189311.040000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2004,2004,1000 ha,191667.200000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2005,2005,1000 ha,193761.290000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2006,2006,1000 ha,192931.110000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2007,2007,1000 ha,194459.220000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2008,2008,1000 ha,193297.130000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2009,2009,1000 ha,193661.650000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2010,2010,1000 ha,197344.560000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2011,2011,1000 ha,196811.370000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2012,2012,1000 ha,195222.950000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2013,2013,1000 ha,196456.870000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2014,2014,1000 ha,196788.510000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2015,2015,1000 ha,196326.250000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2016,2016,1000 ha,196906.640000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2017,2017,1000 ha,198602.970000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2018,2018,1000 ha,195242.670000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2019,2019,1000 ha,197671.760000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2020,2020,1000 ha,198183.500000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2021,2021,1000 ha,198802.970000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2022,2022,1000 ha,200466.950000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2023,2023,1000 ha,199378.710000,E
+100,'356,India,6971,Herbaceous crops,5007,Area from MODIS,2024,2024,1000 ha,199613.390000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,1992,1992,1000 ha,182708.600000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,1993,1993,1000 ha,182260.300000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,1994,1994,1000 ha,182137.850000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,1995,1995,1000 ha,182223.310000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,1996,1996,1000 ha,181757.060000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,1997,1997,1000 ha,181951.170000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,1998,1998,1000 ha,181930.250000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,1999,1999,1000 ha,181558.130000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2000,2000,1000 ha,181491.770000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2001,2001,1000 ha,181134.430000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2002,2002,1000 ha,180970.340000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2003,2003,1000 ha,180418.390000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2004,2004,1000 ha,180091.940000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2005,2005,1000 ha,180027.870000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2006,2006,1000 ha,179297.820000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2007,2007,1000 ha,178768.100000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2008,2008,1000 ha,178469.810000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2009,2009,1000 ha,177995.600000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2010,2010,1000 ha,177419.510000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2011,2011,1000 ha,177145.810000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2012,2012,1000 ha,176568.150000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2013,2013,1000 ha,176202.480000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2014,2014,1000 ha,176048.320000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2015,2015,1000 ha,175969.900000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2016,2016,1000 ha,175530.980000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2017,2017,1000 ha,175245.310000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2018,2018,1000 ha,174764.760000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2019,2019,1000 ha,174336.220000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2020,2020,1000 ha,173718.400000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2021,2021,1000 ha,173400.310000,E
+100,'356,India,6971,Herbaceous crops,5008,Area from CCI_LC,2022,2022,1000 ha,172718.760000,E
+100,'356,India,6971,Herbaceous crops,5013,Area from WorldCover,2020,2020,1000 ha,155204.590000,E
+100,'356,India,6971,Herbaceous crops,5013,Area from WorldCover,2021,2021,1000 ha,146148.710000,E
+100,'356,India,6972,Woody crops,5006,Area from CGLS,2015,2015,1000 ha,,O
+100,'356,India,6972,Woody crops,5006,Area from CGLS,2016,2016,1000 ha,,O
+100,'356,India,6972,Woody crops,5006,Area from CGLS,2017,2017,1000 ha,,O
+100,'356,India,6972,Woody crops,5006,Area from CGLS,2018,2018,1000 ha,,O
+100,'356,India,6972,Woody crops,5006,Area from CGLS,2019,2019,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2001,2001,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2002,2002,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2003,2003,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2004,2004,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2005,2005,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2006,2006,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2007,2007,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2008,2008,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2009,2009,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2010,2010,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2011,2011,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2012,2012,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2013,2013,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2014,2014,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2015,2015,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2016,2016,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2017,2017,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2018,2018,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2019,2019,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2020,2020,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2021,2021,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2022,2022,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2023,2023,1000 ha,,O
+100,'356,India,6972,Woody crops,5007,Area from MODIS,2024,2024,1000 ha,,O
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,1992,1992,1000 ha,8197.440000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,1993,1993,1000 ha,8631.770000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,1994,1994,1000 ha,8741.270000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,1995,1995,1000 ha,9003.630000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,1996,1996,1000 ha,9594.380000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,1997,1997,1000 ha,9570.390000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,1998,1998,1000 ha,9715.930000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,1999,1999,1000 ha,10319.970000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2000,2000,1000 ha,10375.470000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2001,2001,1000 ha,10733.060000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2002,2002,1000 ha,10828.980000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2003,2003,1000 ha,11290.330000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2004,2004,1000 ha,11515.080000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2005,2005,1000 ha,11550.670000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2006,2006,1000 ha,12204.660000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2007,2007,1000 ha,12647.780000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2008,2008,1000 ha,12877.340000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2009,2009,1000 ha,13299.740000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2010,2010,1000 ha,13814.200000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2011,2011,1000 ha,13981.720000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2012,2012,1000 ha,14437.110000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2013,2013,1000 ha,14642.050000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2014,2014,1000 ha,14627.280000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2015,2015,1000 ha,14625.440000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2016,2016,1000 ha,14597.920000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2017,2017,1000 ha,14613.600000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2018,2018,1000 ha,14949.850000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2019,2019,1000 ha,14923.640000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2020,2020,1000 ha,15296.870000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2021,2021,1000 ha,15268.860000,E
+100,'356,India,6972,Woody crops,5008,Area from CCI_LC,2022,2022,1000 ha,15208.850000,E
+100,'356,India,6972,Woody crops,5013,Area from WorldCover,2020,2020,1000 ha,,O
+100,'356,India,6972,Woody crops,5013,Area from WorldCover,2021,2021,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5006,Area from CGLS,2015,2015,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5006,Area from CGLS,2016,2016,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5006,Area from CGLS,2017,2017,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5006,Area from CGLS,2018,2018,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5006,Area from CGLS,2019,2019,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2001,2001,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2002,2002,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2003,2003,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2004,2004,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2005,2005,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2006,2006,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2007,2007,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2008,2008,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2009,2009,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2010,2010,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2011,2011,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2012,2012,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2013,2013,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2014,2014,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2015,2015,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2016,2016,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2017,2017,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2018,2018,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2019,2019,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2020,2020,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2021,2021,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2022,2022,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2023,2023,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5007,Area from MODIS,2024,2024,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5013,Area from WorldCover,2020,2020,1000 ha,,O
+100,'356,India,6973,Multiple or layered crops,5013,Area from WorldCover,2021,2021,1000 ha,,O
+100,'356,India,6983,Grassland,5006,Area from CGLS,2015,2015,1000 ha,,O
+100,'356,India,6983,Grassland,5006,Area from CGLS,2016,2016,1000 ha,,O
+100,'356,India,6983,Grassland,5006,Area from CGLS,2017,2017,1000 ha,,O
+100,'356,India,6983,Grassland,5006,Area from CGLS,2018,2018,1000 ha,,O
+100,'356,India,6983,Grassland,5006,Area from CGLS,2019,2019,1000 ha,,O
+100,'356,India,6983,Grassland,5007,Area from MODIS,2001,2001,1000 ha,36701.070000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2002,2002,1000 ha,34218.750000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2003,2003,1000 ha,30120.010000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2004,2004,1000 ha,26586.770000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2005,2005,1000 ha,24444.410000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2006,2006,1000 ha,25409.190000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2007,2007,1000 ha,23841.680000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2008,2008,1000 ha,24625.740000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2009,2009,1000 ha,24723.060000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2010,2010,1000 ha,22548.130000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2011,2011,1000 ha,24141.300000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2012,2012,1000 ha,25133.130000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2013,2013,1000 ha,22809.980000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2014,2014,1000 ha,21883.940000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2015,2015,1000 ha,22331.520000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2016,2016,1000 ha,22315.040000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2017,2017,1000 ha,20634.300000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2018,2018,1000 ha,22982.530000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2019,2019,1000 ha,20749.770000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2020,2020,1000 ha,19100.140000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2021,2021,1000 ha,17942.150000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2022,2022,1000 ha,18492.650000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2023,2023,1000 ha,19887.620000,E
+100,'356,India,6983,Grassland,5007,Area from MODIS,2024,2024,1000 ha,19835.400000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,1992,1992,1000 ha,24954.780000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,1993,1993,1000 ha,24953.960000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,1994,1994,1000 ha,24952.780000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,1995,1995,1000 ha,24874.370000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,1996,1996,1000 ha,24868.550000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,1997,1997,1000 ha,24888.130000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,1998,1998,1000 ha,24905.440000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,1999,1999,1000 ha,24988.010000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2000,2000,1000 ha,25000.190000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2001,2001,1000 ha,24988.240000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2002,2002,1000 ha,24967.580000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2003,2003,1000 ha,24946.620000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2004,2004,1000 ha,24932.150000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2005,2005,1000 ha,24919.800000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2006,2006,1000 ha,24920.600000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2007,2007,1000 ha,24932.760000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2008,2008,1000 ha,24948.920000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2009,2009,1000 ha,24962.360000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2010,2010,1000 ha,24982.430000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2011,2011,1000 ha,24967.160000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2012,2012,1000 ha,24977.080000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2013,2013,1000 ha,24991.590000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2014,2014,1000 ha,24966.900000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2015,2015,1000 ha,24968.810000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2016,2016,1000 ha,24988.240000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2017,2017,1000 ha,24968.710000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2018,2018,1000 ha,24981.590000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2019,2019,1000 ha,24994.170000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2020,2020,1000 ha,24998.810000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2021,2021,1000 ha,24999.770000,E
+100,'356,India,6983,Grassland,5008,Area from CCI_LC,2022,2022,1000 ha,24970.440000,E
+100,'356,India,6983,Grassland,5013,Area from WorldCover,2020,2020,1000 ha,24683.770000,E
+100,'356,India,6983,Grassland,5013,Area from WorldCover,2021,2021,1000 ha,33613.550000,E
+100,'356,India,6974,Tree-covered areas,5006,Area from CGLS,2015,2015,1000 ha,,O
+100,'356,India,6974,Tree-covered areas,5006,Area from CGLS,2016,2016,1000 ha,,O
+100,'356,India,6974,Tree-covered areas,5006,Area from CGLS,2017,2017,1000 ha,,O
+100,'356,India,6974,Tree-covered areas,5006,Area from CGLS,2018,2018,1000 ha,,O
+100,'356,India,6974,Tree-covered areas,5006,Area from CGLS,2019,2019,1000 ha,,O
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2001,2001,1000 ha,51344.810000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2002,2002,1000 ha,52242.320000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2003,2003,1000 ha,50506.220000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2004,2004,1000 ha,51449.860000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2005,2005,1000 ha,51636.630000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2006,2006,1000 ha,51863.700000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2007,2007,1000 ha,52563.440000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2008,2008,1000 ha,53023.060000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2009,2009,1000 ha,51945.990000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2010,2010,1000 ha,52139.070000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2011,2011,1000 ha,52914.170000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2012,2012,1000 ha,53097.370000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2013,2013,1000 ha,54629.220000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2014,2014,1000 ha,54810.190000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2015,2015,1000 ha,54592.390000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2016,2016,1000 ha,54174.700000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2017,2017,1000 ha,54346.630000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2018,2018,1000 ha,54511.930000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2019,2019,1000 ha,54685.730000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2020,2020,1000 ha,55930.170000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2021,2021,1000 ha,55906.380000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2022,2022,1000 ha,54314.300000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2023,2023,1000 ha,54887.080000,E
+100,'356,India,6974,Tree-covered areas,5007,Area from MODIS,2024,2024,1000 ha,56131.760000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,1992,1992,1000 ha,48580.130000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,1993,1993,1000 ha,48581.920000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,1994,1994,1000 ha,48583.660000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,1995,1995,1000 ha,48380.670000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,1996,1996,1000 ha,48429.000000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,1997,1997,1000 ha,48379.090000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,1998,1998,1000 ha,48267.210000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,1999,1999,1000 ha,48211.530000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2000,2000,1000 ha,48388.100000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2001,2001,1000 ha,48268.600000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2002,2002,1000 ha,48286.660000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2003,2003,1000 ha,48372.270000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2004,2004,1000 ha,48507.950000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2005,2005,1000 ha,48509.890000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2006,2006,1000 ha,48518.840000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2007,2007,1000 ha,48565.770000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2008,2008,1000 ha,48563.600000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2009,2009,1000 ha,48554.570000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2010,2010,1000 ha,48544.130000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2011,2011,1000 ha,48552.080000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2012,2012,1000 ha,48544.700000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2013,2013,1000 ha,48551.050000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2014,2014,1000 ha,48530.770000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2015,2015,1000 ha,48542.140000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2016,2016,1000 ha,49032.930000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2017,2017,1000 ha,49278.310000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2018,2018,1000 ha,49328.940000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2019,2019,1000 ha,49591.810000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2020,2020,1000 ha,49734.810000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2021,2021,1000 ha,49919.640000,E
+100,'356,India,6974,Tree-covered areas,5008,Area from CCI_LC,2022,2022,1000 ha,50436.690000,E
+100,'356,India,6974,Tree-covered areas,5013,Area from WorldCover,2020,2020,1000 ha,68960.380000,E
+100,'356,India,6974,Tree-covered areas,5013,Area from WorldCover,2021,2021,1000 ha,78481.210000,E
+100,'356,India,6975,Mangroves,5006,Area from CGLS,2015,2015,1000 ha,,O
+100,'356,India,6975,Mangroves,5006,Area from CGLS,2016,2016,1000 ha,,O
+100,'356,India,6975,Mangroves,5006,Area from CGLS,2017,2017,1000 ha,,O
+100,'356,India,6975,Mangroves,5006,Area from CGLS,2018,2018,1000 ha,,O
+100,'356,India,6975,Mangroves,5006,Area from CGLS,2019,2019,1000 ha,,O
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2001,2001,1000 ha,682.050000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2002,2002,1000 ha,518.940000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2003,2003,1000 ha,487.900000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2004,2004,1000 ha,485.600000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2005,2005,1000 ha,490.890000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2006,2006,1000 ha,509.270000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2007,2007,1000 ha,519.200000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2008,2008,1000 ha,546.670000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2009,2009,1000 ha,536.680000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2010,2010,1000 ha,541.210000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2011,2011,1000 ha,533.080000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2012,2012,1000 ha,502.680000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2013,2013,1000 ha,473.480000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2014,2014,1000 ha,461.520000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2015,2015,1000 ha,463.960000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2016,2016,1000 ha,457.550000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2017,2017,1000 ha,449.690000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2018,2018,1000 ha,454.400000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2019,2019,1000 ha,446.450000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2020,2020,1000 ha,455.180000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2021,2021,1000 ha,466.280000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2022,2022,1000 ha,488.920000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2023,2023,1000 ha,484.680000,E
+100,'356,India,6975,Mangroves,5007,Area from MODIS,2024,2024,1000 ha,476.490000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,1992,1992,1000 ha,379.100000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,1993,1993,1000 ha,378.990000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,1994,1994,1000 ha,378.950000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,1995,1995,1000 ha,375.490000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,1996,1996,1000 ha,378.960000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,1997,1997,1000 ha,380.430000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,1998,1998,1000 ha,382.640000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,1999,1999,1000 ha,383.790000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2000,2000,1000 ha,385.700000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2001,2001,1000 ha,395.160000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2002,2002,1000 ha,398.340000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2003,2003,1000 ha,401.220000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2004,2004,1000 ha,404.130000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2005,2005,1000 ha,406.300000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2006,2006,1000 ha,409.440000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2007,2007,1000 ha,412.120000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2008,2008,1000 ha,414.780000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2009,2009,1000 ha,416.280000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2010,2010,1000 ha,417.100000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2011,2011,1000 ha,417.090000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2012,2012,1000 ha,416.920000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2013,2013,1000 ha,416.720000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2014,2014,1000 ha,416.700000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2015,2015,1000 ha,416.660000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2016,2016,1000 ha,422.000000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2017,2017,1000 ha,423.120000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2018,2018,1000 ha,425.050000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2019,2019,1000 ha,425.330000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2020,2020,1000 ha,425.330000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2021,2021,1000 ha,429.610000,E
+100,'356,India,6975,Mangroves,5008,Area from CCI_LC,2022,2022,1000 ha,438.370000,E
+100,'356,India,6975,Mangroves,5013,Area from WorldCover,2020,2020,1000 ha,455.770000,E
+100,'356,India,6975,Mangroves,5013,Area from WorldCover,2021,2021,1000 ha,446.530000,E
+100,'356,India,6976,Shrub-covered areas,5006,Area from CGLS,2015,2015,1000 ha,12767.270000,E
+100,'356,India,6976,Shrub-covered areas,5006,Area from CGLS,2016,2016,1000 ha,12739.220000,E
+100,'356,India,6976,Shrub-covered areas,5006,Area from CGLS,2017,2017,1000 ha,12741.900000,E
+100,'356,India,6976,Shrub-covered areas,5006,Area from CGLS,2018,2018,1000 ha,12658.970000,E
+100,'356,India,6976,Shrub-covered areas,5006,Area from CGLS,2019,2019,1000 ha,12574.880000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2001,2001,1000 ha,13172.270000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2002,2002,1000 ha,14723.810000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2003,2003,1000 ha,12284.310000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2004,2004,1000 ha,12002.010000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2005,2005,1000 ha,11397.540000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2006,2006,1000 ha,10806.510000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2007,2007,1000 ha,9983.630000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2008,2008,1000 ha,10043.130000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2009,2009,1000 ha,10628.220000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2010,2010,1000 ha,9289.050000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2011,2011,1000 ha,8004.410000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2012,2012,1000 ha,9142.150000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2013,2013,1000 ha,9174.320000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2014,2014,1000 ha,9223.360000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2015,2015,1000 ha,9723.160000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2016,2016,1000 ha,9693.780000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2017,2017,1000 ha,9486.730000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2018,2018,1000 ha,10129.980000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2019,2019,1000 ha,9720.420000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2020,2020,1000 ha,9471.670000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2021,2021,1000 ha,9800.650000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2022,2022,1000 ha,9227.820000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2023,2023,1000 ha,8753.560000,E
+100,'356,India,6976,Shrub-covered areas,5007,Area from MODIS,2024,2024,1000 ha,7708.980000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,1992,1992,1000 ha,22641.210000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,1993,1993,1000 ha,22640.510000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,1994,1994,1000 ha,22639.760000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,1995,1995,1000 ha,22563.890000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,1996,1996,1000 ha,22369.260000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,1997,1997,1000 ha,22208.910000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,1998,1998,1000 ha,22149.590000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,1999,1999,1000 ha,21870.890000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2000,2000,1000 ha,21660.990000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2001,2001,1000 ha,21670.340000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2002,2002,1000 ha,21639.580000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2003,2003,1000 ha,21562.850000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2004,2004,1000 ha,21430.690000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2005,2005,1000 ha,21379.520000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2006,2006,1000 ha,21354.810000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2007,2007,1000 ha,21310.610000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2008,2008,1000 ha,21293.220000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2009,2009,1000 ha,21277.250000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2010,2010,1000 ha,21267.240000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2011,2011,1000 ha,21252.850000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2012,2012,1000 ha,21248.520000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2013,2013,1000 ha,21244.230000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2014,2014,1000 ha,21248.610000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2015,2015,1000 ha,21246.200000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2016,2016,1000 ha,21181.080000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2017,2017,1000 ha,21153.200000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2018,2018,1000 ha,21185.620000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2019,2019,1000 ha,21279.130000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2020,2020,1000 ha,21329.550000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2021,2021,1000 ha,21350.310000,E
+100,'356,India,6976,Shrub-covered areas,5008,Area from CCI_LC,2022,2022,1000 ha,21353.280000,E
+100,'356,India,6976,Shrub-covered areas,5013,Area from WorldCover,2020,2020,1000 ha,14161.850000,E
+100,'356,India,6976,Shrub-covered areas,5013,Area from WorldCover,2021,2021,1000 ha,14472.270000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5006,Area from CGLS,2015,2015,1000 ha,745.030000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5006,Area from CGLS,2016,2016,1000 ha,997.670000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5006,Area from CGLS,2017,2017,1000 ha,1205.100000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5006,Area from CGLS,2018,2018,1000 ha,1384.920000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5006,Area from CGLS,2019,2019,1000 ha,1578.210000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2001,2001,1000 ha,789.960000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2002,2002,1000 ha,542.690000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2003,2003,1000 ha,443.800000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2004,2004,1000 ha,421.310000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2005,2005,1000 ha,385.310000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2006,2006,1000 ha,385.550000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2007,2007,1000 ha,395.790000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2008,2008,1000 ha,387.960000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2009,2009,1000 ha,388.280000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2010,2010,1000 ha,413.120000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2011,2011,1000 ha,492.370000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2012,2012,1000 ha,523.260000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2013,2013,1000 ha,560.950000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2014,2014,1000 ha,605.870000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2015,2015,1000 ha,662.510000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2016,2016,1000 ha,674.980000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2017,2017,1000 ha,706.460000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2018,2018,1000 ha,729.610000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2019,2019,1000 ha,721.510000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2020,2020,1000 ha,818.520000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2021,2021,1000 ha,890.180000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2022,2022,1000 ha,909.400000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2023,2023,1000 ha,1010.720000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5007,Area from MODIS,2024,2024,1000 ha,1020.070000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,1992,1992,1000 ha,1861.460000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,1993,1993,1000 ha,1861.460000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,1994,1994,1000 ha,1861.450000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,1995,1995,1000 ha,1866.040000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,1996,1996,1000 ha,1872.020000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,1997,1997,1000 ha,1874.120000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,1998,1998,1000 ha,1886.770000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,1999,1999,1000 ha,1890.000000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2000,2000,1000 ha,1892.590000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2001,2001,1000 ha,1892.740000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2002,2002,1000 ha,1892.700000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2003,2003,1000 ha,1893.140000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2004,2004,1000 ha,1893.950000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2005,2005,1000 ha,1895.010000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2006,2006,1000 ha,1896.010000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2007,2007,1000 ha,1898.730000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2008,2008,1000 ha,1910.680000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2009,2009,1000 ha,1912.260000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2010,2010,1000 ha,1912.130000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2011,2011,1000 ha,1910.260000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2012,2012,1000 ha,1911.640000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2013,2013,1000 ha,1911.720000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2014,2014,1000 ha,1907.730000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2015,2015,1000 ha,1907.600000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2016,2016,1000 ha,1907.150000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2017,2017,1000 ha,1906.540000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2018,2018,1000 ha,1906.560000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2019,2019,1000 ha,1907.150000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2020,2020,1000 ha,1906.390000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2021,2021,1000 ha,1906.740000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5008,Area from CCI_LC,2022,2022,1000 ha,1906.770000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5013,Area from WorldCover,2020,2020,1000 ha,776.670000,E
+100,'356,India,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",5013,Area from WorldCover,2021,2021,1000 ha,530.850000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5006,Area from CGLS,2015,2015,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5006,Area from CGLS,2016,2016,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5006,Area from CGLS,2017,2017,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5006,Area from CGLS,2018,2018,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5006,Area from CGLS,2019,2019,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2001,2001,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2002,2002,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2003,2003,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2004,2004,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2005,2005,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2006,2006,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2007,2007,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2008,2008,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2009,2009,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2010,2010,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2011,2011,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2012,2012,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2013,2013,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2014,2014,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2015,2015,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2016,2016,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2017,2017,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2018,2018,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2019,2019,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2020,2020,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2021,2021,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2022,2022,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2023,2023,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5007,Area from MODIS,2024,2024,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,1992,1992,1000 ha,523.120000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,1993,1993,1000 ha,523.030000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,1994,1994,1000 ha,522.970000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,1995,1995,1000 ha,523.210000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,1996,1996,1000 ha,523.240000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,1997,1997,1000 ha,523.160000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,1998,1998,1000 ha,523.480000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,1999,1999,1000 ha,524.890000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2000,2000,1000 ha,526.480000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2001,2001,1000 ha,525.310000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2002,2002,1000 ha,524.450000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2003,2003,1000 ha,524.600000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2004,2004,1000 ha,523.970000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2005,2005,1000 ha,523.960000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2006,2006,1000 ha,524.020000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2007,2007,1000 ha,523.900000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2008,2008,1000 ha,525.140000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2009,2009,1000 ha,525.890000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2010,2010,1000 ha,525.610000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2011,2011,1000 ha,527.050000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2012,2012,1000 ha,528.640000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2013,2013,1000 ha,529.010000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2014,2014,1000 ha,528.610000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2015,2015,1000 ha,528.120000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2016,2016,1000 ha,529.580000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2017,2017,1000 ha,530.450000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2018,2018,1000 ha,536.290000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2019,2019,1000 ha,539.330000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2020,2020,1000 ha,540.910000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2021,2021,1000 ha,540.890000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5008,Area from CCI_LC,2022,2022,1000 ha,540.380000,E
+100,'356,India,6978,Sparsely natural vegetated areas,5013,Area from WorldCover,2020,2020,1000 ha,,O
+100,'356,India,6978,Sparsely natural vegetated areas,5013,Area from WorldCover,2021,2021,1000 ha,,O
+100,'356,India,6979,Terrestrial barren land,5006,Area from CGLS,2015,2015,1000 ha,6892.340000,E
+100,'356,India,6979,Terrestrial barren land,5006,Area from CGLS,2016,2016,1000 ha,6765.960000,E
+100,'356,India,6979,Terrestrial barren land,5006,Area from CGLS,2017,2017,1000 ha,6697.910000,E
+100,'356,India,6979,Terrestrial barren land,5006,Area from CGLS,2018,2018,1000 ha,6666.500000,E
+100,'356,India,6979,Terrestrial barren land,5006,Area from CGLS,2019,2019,1000 ha,6649.340000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2001,2001,1000 ha,8094.190000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2002,2002,1000 ha,9610.290000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2003,2003,1000 ha,8868.510000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2004,2004,1000 ha,9353.790000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2005,2005,1000 ha,9744.110000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2006,2006,1000 ha,9907.440000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2007,2007,1000 ha,9916.100000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2008,2008,1000 ha,9760.160000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2009,2009,1000 ha,9776.880000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2010,2010,1000 ha,9331.250000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2011,2011,1000 ha,8534.500000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2012,2012,1000 ha,7893.960000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2013,2013,1000 ha,7466.340000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2014,2014,1000 ha,7818.340000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2015,2015,1000 ha,7498.630000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2016,2016,1000 ha,7329.580000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2017,2017,1000 ha,7391.750000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2018,2018,1000 ha,7636.560000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2019,2019,1000 ha,7594.250000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2020,2020,1000 ha,7405.280000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2021,2021,1000 ha,7424.690000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2022,2022,1000 ha,7434.840000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2023,2023,1000 ha,6754.190000,E
+100,'356,India,6979,Terrestrial barren land,5007,Area from MODIS,2024,2024,1000 ha,6492.290000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,1992,1992,1000 ha,1217.060000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,1993,1993,1000 ha,1216.970000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,1994,1994,1000 ha,1216.830000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,1995,1995,1000 ha,1215.250000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,1996,1996,1000 ha,1216.240000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,1997,1997,1000 ha,1216.620000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,1998,1998,1000 ha,1217.600000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,1999,1999,1000 ha,1219.070000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2000,2000,1000 ha,1223.700000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2001,2001,1000 ha,1223.750000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2002,2002,1000 ha,1225.060000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2003,2003,1000 ha,1230.110000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2004,2004,1000 ha,1232.090000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2005,2005,1000 ha,1234.340000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2006,2006,1000 ha,1234.660000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2007,2007,1000 ha,1237.800000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2008,2008,1000 ha,1240.540000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2009,2009,1000 ha,1242.850000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2010,2010,1000 ha,1246.450000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2011,2011,1000 ha,1248.590000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2012,2012,1000 ha,1251.530000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2013,2013,1000 ha,1253.470000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2014,2014,1000 ha,1252.330000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2015,2015,1000 ha,1252.310000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2016,2016,1000 ha,1252.830000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2017,2017,1000 ha,1251.980000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2018,2018,1000 ha,1253.960000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2019,2019,1000 ha,1254.920000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2020,2020,1000 ha,1254.860000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2021,2021,1000 ha,1255.850000,E
+100,'356,India,6979,Terrestrial barren land,5008,Area from CCI_LC,2022,2022,1000 ha,1256.840000,E
+100,'356,India,6979,Terrestrial barren land,5013,Area from WorldCover,2020,2020,1000 ha,20931.130000,E
+100,'356,India,6979,Terrestrial barren land,5013,Area from WorldCover,2021,2021,1000 ha,10621.800000,E
+100,'356,India,6980,Permanent snow and glaciers,5006,Area from CGLS,2015,2015,1000 ha,773.630000,E
+100,'356,India,6980,Permanent snow and glaciers,5006,Area from CGLS,2016,2016,1000 ha,782.300000,E
+100,'356,India,6980,Permanent snow and glaciers,5006,Area from CGLS,2017,2017,1000 ha,788.120000,E
+100,'356,India,6980,Permanent snow and glaciers,5006,Area from CGLS,2018,2018,1000 ha,820.970000,E
+100,'356,India,6980,Permanent snow and glaciers,5006,Area from CGLS,2019,2019,1000 ha,848.730000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2001,2001,1000 ha,180.670000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2002,2002,1000 ha,228.280000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2003,2003,1000 ha,211.520000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2004,2004,1000 ha,259.680000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2005,2005,1000 ha,321.260000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2006,2006,1000 ha,306.990000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2007,2007,1000 ha,308.620000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2008,2008,1000 ha,329.910000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2009,2009,1000 ha,381.650000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2010,2010,1000 ha,416.210000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2011,2011,1000 ha,377.220000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2012,2012,1000 ha,331.940000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2013,2013,1000 ha,326.960000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2014,2014,1000 ha,333.350000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2015,2015,1000 ha,358.210000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2016,2016,1000 ha,306.480000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2017,2017,1000 ha,283.680000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2018,2018,1000 ha,302.510000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2019,2019,1000 ha,377.670000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2020,2020,1000 ha,389.110000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2021,2021,1000 ha,421.170000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2022,2022,1000 ha,394.530000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2023,2023,1000 ha,384.750000,E
+100,'356,India,6980,Permanent snow and glaciers,5007,Area from MODIS,2024,2024,1000 ha,314.760000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,1992,1992,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,1993,1993,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,1994,1994,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,1995,1995,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,1996,1996,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,1997,1997,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,1998,1998,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,1999,1999,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2000,2000,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2001,2001,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2002,2002,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2003,2003,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2004,2004,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2005,2005,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2006,2006,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2007,2007,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2008,2008,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2009,2009,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2010,2010,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2011,2011,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2012,2012,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2013,2013,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2014,2014,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2015,2015,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2016,2016,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2017,2017,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2018,2018,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2019,2019,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2020,2020,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2021,2021,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5008,Area from CCI_LC,2022,2022,1000 ha,739.640000,E
+100,'356,India,6980,Permanent snow and glaciers,5013,Area from WorldCover,2020,2020,1000 ha,797.760000,E
+100,'356,India,6980,Permanent snow and glaciers,5013,Area from WorldCover,2021,2021,1000 ha,948.010000,E
+100,'356,India,6981,Inland water bodies,5006,Area from CGLS,2015,2015,1000 ha,1824.150000,E
+100,'356,India,6981,Inland water bodies,5006,Area from CGLS,2016,2016,1000 ha,1936.260000,E
+100,'356,India,6981,Inland water bodies,5006,Area from CGLS,2017,2017,1000 ha,2048.550000,E
+100,'356,India,6981,Inland water bodies,5006,Area from CGLS,2018,2018,1000 ha,2065.460000,E
+100,'356,India,6981,Inland water bodies,5006,Area from CGLS,2019,2019,1000 ha,2113.350000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2001,2001,1000 ha,1828.390000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2002,2002,1000 ha,1814.250000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2003,2003,1000 ha,1810.540000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2004,2004,1000 ha,1814.950000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2005,2005,1000 ha,1856.930000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2006,2006,1000 ha,1912.990000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2007,2007,1000 ha,2040.850000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2008,2008,1000 ha,2007.680000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2009,2009,1000 ha,1971.880000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2010,2010,1000 ha,1987.430000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2011,2011,1000 ha,2194.030000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2012,2012,1000 ha,2146.580000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2013,2013,1000 ha,2088.230000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2014,2014,1000 ha,2048.790000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2015,2015,1000 ha,2007.850000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2016,2016,1000 ha,2096.600000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2017,2017,1000 ha,2046.370000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2018,2018,1000 ha,1950.160000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2019,2019,1000 ha,1964.400000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2020,2020,1000 ha,2164.600000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2021,2021,1000 ha,2256.850000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2022,2022,1000 ha,2170.940000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2023,2023,1000 ha,2337.030000,E
+100,'356,India,6981,Inland water bodies,5007,Area from MODIS,2024,2024,1000 ha,2275.960000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,1992,1992,1000 ha,5413.750000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,1993,1993,1000 ha,5413.470000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,1994,1994,1000 ha,5413.110000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,1995,1995,1000 ha,5410.070000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,1996,1996,1000 ha,5413.920000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,1997,1997,1000 ha,5417.930000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,1998,1998,1000 ha,5418.410000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,1999,1999,1000 ha,5418.450000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2000,2000,1000 ha,5425.520000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2001,2001,1000 ha,5421.730000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2002,2002,1000 ha,5417.190000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2003,2003,1000 ha,5413.320000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2004,2004,1000 ha,5420.150000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2005,2005,1000 ha,5428.130000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2006,2006,1000 ha,5441.720000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2007,2007,1000 ha,5428.820000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2008,2008,1000 ha,5419.660000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2009,2009,1000 ha,5416.320000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2010,2010,1000 ha,5415.350000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2011,2011,1000 ha,5477.920000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2012,2012,1000 ha,5500.480000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2013,2013,1000 ha,5512.620000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2014,2014,1000 ha,5611.020000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2015,2015,1000 ha,5610.120000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2016,2016,1000 ha,5614.810000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2017,2017,1000 ha,5621.210000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2018,2018,1000 ha,5623.500000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2019,2019,1000 ha,5635.040000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2020,2020,1000 ha,5640.280000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2021,2021,1000 ha,5661.120000,E
+100,'356,India,6981,Inland water bodies,5008,Area from CCI_LC,2022,2022,1000 ha,5687.260000,E
+100,'356,India,6981,Inland water bodies,5013,Area from WorldCover,2020,2020,1000 ha,5859.300000,E
+100,'356,India,6981,Inland water bodies,5013,Area from WorldCover,2021,2021,1000 ha,5736.440000,E
+100,'356,India,6982,Coastal water bodies and intertidal areas,5006,Area from CGLS,2015,2015,1000 ha,492.960000,E
+100,'356,India,6982,Coastal water bodies and intertidal areas,5006,Area from CGLS,2016,2016,1000 ha,492.960000,E
+100,'356,India,6982,Coastal water bodies and intertidal areas,5006,Area from CGLS,2017,2017,1000 ha,492.960000,E
+100,'356,India,6982,Coastal water bodies and intertidal areas,5006,Area from CGLS,2018,2018,1000 ha,492.960000,E
+100,'356,India,6982,Coastal water bodies and intertidal areas,5006,Area from CGLS,2019,2019,1000 ha,492.960000,E
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2001,2001,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2002,2002,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2003,2003,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2004,2004,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2005,2005,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2006,2006,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2007,2007,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2008,2008,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2009,2009,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2010,2010,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2011,2011,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2012,2012,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2013,2013,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2014,2014,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2015,2015,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2016,2016,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2017,2017,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2018,2018,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2019,2019,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2020,2020,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2021,2021,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2022,2022,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2023,2023,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5007,Area from MODIS,2024,2024,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5013,Area from WorldCover,2020,2020,1000 ha,,O
+100,'356,India,6982,Coastal water bodies and intertidal areas,5013,Area from WorldCover,2021,2021,1000 ha,,O
