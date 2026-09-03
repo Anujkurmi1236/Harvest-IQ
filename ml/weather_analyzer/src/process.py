@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parents[1]
-DATA_DIR = BASE_DIR / "data" / "processed" / "req_data"
+DATA_DIR = BASE_DIR / "data" / "req_data"
 OUT_DIR = BASE_DIR / "output"
 OUT_DIR.mkdir(parents=True, exist_ok=True)  
 

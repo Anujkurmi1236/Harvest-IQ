@@ -1,0 +1,116 @@
+Year
+Temperature_Change_Volatility
+landuse__Agricultural land__Share in Land area
+landuse__Agriculture area actually irrigated__Share in Agricultural land
+landuse__Agriculture area under organic agric.__Share in Agricultural land
+landuse__Arable land__Share in Agricultural land
+landuse__Cropland__Area per capita
+landuse__Cropland__Share in Agricultural land
+landuse__Cropland__Share in Land area
+landuse__Forest land__Share in Land area
+landuse__Land area equipped for irrigation__Share in Agricultural land
+landuse__Land area equipped for irrigation__Share in Cropland
+landuse__Land under perm. meadows and pastures__Share in Agricultural land
+landuse__Land under perm. meadows and pastures__Share in Land area
+landuse__Land under permanent crops__Share in Agricultural land
+landuse__Naturally regenerating forest__Share in Forest land
+landuse__Planted Forest__Share in Forest land
+landcover__Artificial surfaces (including urban and associated areas)
+landcover__Grassland
+landcover__Herbaceous crops
+landcover__Inland water bodies
+landcover__Mangroves
+landcover__Permanent snow and glaciers
+landcover__Shrub-covered areas
+landcover__Shrubs and/or herbaceous vegetation, aquatic or regularly flooded
+landcover__Sparsely natural vegetated areas
+landcover__Terrestrial barren land
+landcover__Tree-covered areas
+landcover__Woody crops
+emissions__AFOLU__Emissions Share (CH4)
+emissions__AFOLU__Emissions Share (CO2)
+emissions__AFOLU__Emissions Share (CO2eq) (AR5)
+emissions__AFOLU__Emissions Share (N2O)
+emissions__AFOLU__Emissions per capita
+emissions__Agrifood systems__Emissions Share (CH4)
+emissions__Agrifood systems__Emissions Share (CO2)
+emissions__Agrifood systems__Emissions Share (CO2eq) (AR5)
+emissions__Agrifood systems__Emissions Share (CO2eq) (AR5) (F-gases)
+emissions__Agrifood systems__Emissions Share (N2O)
+emissions__Agrifood systems__Emissions per capita
+emissions__All sectors with LULUCF__Emissions Share (CH4)
+emissions__All sectors with LULUCF__Emissions Share (CO2)
+emissions__All sectors with LULUCF__Emissions Share (CO2eq) (AR5)
+emissions__All sectors with LULUCF__Emissions Share (CO2eq) (AR5) (F-gases)
+emissions__All sectors with LULUCF__Emissions Share (N2O)
+emissions__All sectors with LULUCF__Emissions per capita
+emissions__All sectors without LULUCF__Emissions Share (CH4)
+emissions__All sectors without LULUCF__Emissions Share (CO2)
+emissions__All sectors without LULUCF__Emissions Share (CO2eq) (AR5)
+emissions__All sectors without LULUCF__Emissions Share (CO2eq) (AR5) (F-gases)
+emissions__All sectors without LULUCF__Emissions Share (N2O)
+emissions__All sectors without LULUCF__Emissions per capita
+emissions__Emissions from crops__Emissions Share (CH4)
+emissions__Emissions from crops__Emissions Share (CO2eq) (AR5)
+emissions__Emissions from crops__Emissions Share (N2O)
+emissions__Emissions from crops__Emissions per capita
+emissions__Emissions from livestock__Emissions Share (CH4)
+emissions__Emissions from livestock__Emissions Share (CO2eq) (AR5)
+emissions__Emissions from livestock__Emissions Share (N2O)
+emissions__Emissions from livestock__Emissions per capita
+emissions__Emissions on agricultural land__Emissions Share (CH4)
+emissions__Emissions on agricultural land__Emissions Share (CO2)
+emissions__Emissions on agricultural land__Emissions Share (CO2eq) (AR5)
+emissions__Emissions on agricultural land__Emissions Share (N2O)
+emissions__Emissions on agricultural land__Emissions per area of agricultural land
+emissions__Emissions on agricultural land__Emissions per capita
+emissions__Emissions on agricultural land__Emissions per value of agricultural production
+emissions__Energy__Emissions Share (CH4)
+emissions__Energy__Emissions Share (CO2)
+emissions__Energy__Emissions Share (CO2eq) (AR5)
+emissions__Energy__Emissions Share (N2O)
+emissions__Energy__Emissions per capita
+emissions__Farm gate__Emissions Share (CH4)
+emissions__Farm gate__Emissions Share (CO2)
+emissions__Farm gate__Emissions Share (CO2eq) (AR5)
+emissions__Farm gate__Emissions Share (N2O)
+emissions__Farm gate__Emissions per area of agricultural land
+emissions__Farm gate__Emissions per capita
+emissions__Farm gate__Emissions per value of agricultural production
+emissions__IPCC Agriculture__Emissions Share (CH4)
+emissions__IPCC Agriculture__Emissions Share (CO2eq) (AR5)
+emissions__IPCC Agriculture__Emissions Share (N2O)
+emissions__IPCC Agriculture__Emissions per area of agricultural land
+emissions__IPCC Agriculture__Emissions per capita
+emissions__IPCC Agriculture__Emissions per value of agricultural production
+emissions__IPPU__Emissions Share (CH4)
+emissions__IPPU__Emissions Share (CO2)
+emissions__IPPU__Emissions Share (CO2eq) (AR5)
+emissions__IPPU__Emissions Share (CO2eq) (AR5) (F-gases)
+emissions__IPPU__Emissions Share (N2O)
+emissions__IPPU__Emissions per capita
+emissions__LULUCF__Emissions Share (CH4)
+emissions__LULUCF__Emissions Share (CO2)
+emissions__LULUCF__Emissions Share (CO2eq) (AR5)
+emissions__LULUCF__Emissions Share (N2O)
+emissions__LULUCF__Emissions per capita
+emissions__Land-use change__Emissions Share (CH4)
+emissions__Land-use change__Emissions Share (CO2)
+emissions__Land-use change__Emissions Share (CO2eq) (AR5)
+emissions__Land-use change__Emissions Share (N2O)
+emissions__Land-use change__Emissions per capita
+emissions__Other__Emissions Share (CH4)
+emissions__Other__Emissions Share (CO2)
+emissions__Other__Emissions Share (CO2eq) (AR5)
+emissions__Other__Emissions Share (N2O)
+emissions__Other__Emissions per capita
+emissions__Pre- and post-production__Emissions Share (CH4)
+emissions__Pre- and post-production__Emissions Share (CO2)
+emissions__Pre- and post-production__Emissions Share (CO2eq) (AR5)
+emissions__Pre- and post-production__Emissions Share (CO2eq) (AR5) (F-gases)
+emissions__Pre- and post-production__Emissions Share (N2O)
+emissions__Pre- and post-production__Emissions per capita
+emissions__Waste__Emissions Share (CH4)
+emissions__Waste__Emissions Share (CO2eq) (AR5)
+emissions__Waste__Emissions Share (N2O)
+emissions__Waste__Emissions per capita
