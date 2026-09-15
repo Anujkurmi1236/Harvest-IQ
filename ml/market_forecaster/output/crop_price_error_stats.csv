@@ -1,0 +1,91 @@
+Item,n_test_rows,mae_pp,low_confidence
+Maize (corn),2,0.9943061,True
+Millet,4,1.5491202,False
+"Cassava, fresh",3,1.8086362,False
+Mushrooms and truffles,4,2.0142295,False
+"Meat of pig with the bone, fresh or chilled (biological)",6,2.1925075,False
+"Chillies and peppers, dry (Capsicum spp., Pimenta spp.), raw",6,2.331751,False
+Eggplants (aubergines),6,2.46698,False
+"Meat of chickens, fresh or chilled",6,2.5696976,False
+"Jute, raw or retted",6,2.5820067,False
+"Onions and shallots, dry (excluding dehydrated)",6,2.628823,False
+"Meat of chickens, fresh or chilled (biological)",6,2.790078,False
+Cucumbers and gherkins,6,2.7922802,False
+"Ginger, raw",6,3.0188656,False
+"Meat of sheep, fresh or chilled (biological)",6,3.0615518,False
+Natural rubber in primary forms,6,3.0789711,False
+"Cashew nuts, in shell",3,3.166933,False
+"Other oil seeds, n.e.c.",6,3.17745,False
+Natural honey,6,3.21591,False
+Okra,6,3.2589953,False
+"Seed cotton, unginned",6,3.4509983,False
+"Coffee, green",6,3.47672,False
+Lettuce and chicory,6,3.5355613,False
+Cauliflowers and broccoli,6,3.5587423,False
+Barley,6,3.5836685,False
+"Other tropical fruits, n.e.c.",6,3.5924015,False
+"Meat of buffalo, fresh or chilled (biological)",5,3.5956454,False
+"Meat of goat, fresh or chilled (biological)",6,3.6425822,False
+Cocoa beans,6,3.656638,False
+Cotton seed,6,3.6755686,False
+"Meat of buffalo, fresh or chilled",5,3.7826018,False
+"Hen eggs in shell, fresh",6,3.9970043,False
+"Meat of cattle with the bone, fresh or chilled (biological)",6,3.9985247,False
+"Meat of pig with the bone, fresh or chilled",6,3.998906,False
+"Meat of cattle with the bone, fresh or chilled",6,4.009225,False
+"Kenaf, and other textile bast fibres, raw or retted",6,4.088622,False
+Papayas,6,4.15535,False
+Cabbages,5,4.1637135,False
+"Peas, green",6,4.2430916,False
+"Pumpkins, squash and gourds",6,4.32977,False
+"Other stimulant, spice and aromatic crops, n.e.c.",6,4.353336,False
+"Meat of ducks, fresh or chilled",6,4.3589387,False
+"Mangoes, guavas and mangosteens",5,4.384626,False
+Rape or colza seed,6,4.503776,False
+"Chillies and peppers, green (Capsicum spp. and Pimenta spp.)",6,4.57596,False
+Potatoes,6,4.5918994,False
+Raw milk of buffalo,6,4.6242814,False
+Areca nuts,6,4.642995,False
+"Lentils, dry",6,4.728762,False
+Raspberries,6,4.7899475,False
+"Meat of goat, fresh or chilled",6,4.7938056,False
+Other pulses n.e.c.,6,4.8014174,False
+Bananas,6,4.8134856,False
+"Other meat of mammals, fresh or chilled",6,4.9009576,False
+Pineapples,6,4.9020877,False
+"Meat of sheep, fresh or chilled",6,4.9356017,False
+Carrots and turnips,5,5.039168,False
+"Other beans, green",6,5.1535883,False
+"Other vegetables, fresh n.e.c.",6,5.156276,False
+"Beans, dry",6,5.210423,False
+"Peas, dry",6,5.258004,False
+Pomelos and grapefruits,6,5.4444175,False
+Plums and sloes,6,5.445991,False
+Peaches and nectarines,6,5.447523,False
+Rice,6,5.5003777,False
+"Other fruits, n.e.c.",6,5.5161004,False
+"Cotton lint, ginned",6,5.571796,False
+"Nutmeg, mace, cardamoms, raw",6,5.7847037,False
+Figs,6,5.805181,False
+Lemons and limes,6,5.8619156,False
+Linseed,6,5.9091554,False
+Grapes,6,5.96028,False
+Oranges,6,6.0008183,False
+Cherries,6,6.0354476,False
+"Coconuts, in shell",6,6.296204,False
+Apricots,2,6.315289,True
+"Pepper (Piper spp.), raw",2,6.374563,True
+"Chick peas, dry",2,6.389267,True
+Castor oil seeds,6,7.1526637,False
+Raw milk of goats,2,7.2025,True
+Raw milk of cattle,2,7.2581367,True
+Other stone fruits,6,7.5342693,False
+Apples,2,7.577881,True
+"Pigeon peas, dry",6,7.6787095,False
+"Groundnuts, excluding shelled",6,8.078965,False
+"Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw",4,8.081957,False
+Pears,6,8.120912,False
+"Other citrus fruit, n.e.c.",6,9.622899,False
+Safflower seed,2,10.164388,True
+Cantaloupes and other melons,5,11.635391,False
+Green garlic,6,13.8033905,False
