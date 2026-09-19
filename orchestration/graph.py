@@ -25,3 +25,11 @@ def build_graph():
     graph.add_edge("supply_chain_node", END)
  
     return graph.compile()
+
+
+
+
+
+
+
+    
