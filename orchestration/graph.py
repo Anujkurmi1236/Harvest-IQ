@@ -26,6 +26,7 @@ def build_graph():
  
     return graph.compile()
 
+compiled_graph = build_graph()
 
 
 

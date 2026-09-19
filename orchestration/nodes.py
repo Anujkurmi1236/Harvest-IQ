@@ -13,12 +13,12 @@ def yield_node(state: HarvestState) -> dict:
     )
 
     return {
-        "yield_prediction": result
+        "yield_result": result
     }
 
 def weather_node(state: HarvestState) -> dict:
     result = predict_weather(year=state["year"])
-    return {"weather_analysis": result}
+    return {"weather_result": result}
 
 def aggregator_node(state: HarvestState) -> dict:
     """
@@ -44,7 +44,7 @@ def aggregator_node(state: HarvestState) -> dict:
 
 def market_node(state: HarvestState) -> dict:
     result = predict_price(item=state["item"], year=state["year"])
-    return {"market_forecast": result}
+    return {"price_result": result}
  
 def _monthly_growth_from_price_result(price_result: dict) -> float:
     """

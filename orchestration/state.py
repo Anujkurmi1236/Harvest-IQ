@@ -1,20 +1,20 @@
-from typing import Optional, TypedDict, Any, Required, NotRequired
+from typing import Optional, TypedDict
 
 
 class HarvestState(TypedDict, total=False):
 
-    item: Required[str]
-    year: Required[int]
+    item: str
+    year: int
+    area_harvested: Optional[float]
+    quantity_tonnes: float
+    current_price_per_quintal: float
+    direct_to_market_distance_km: float
 
-    aera_harvested: Optional[float]
-    quantity_tonnes: Required[float]
-    current_price_per_quintal: Required[float]
-    direct_to_market_distance_km: Required[float]
 
-    yield_prediction: NotRequired[dict]
-    weather_analysis: NotRequired[dict]
-    aggregated_context: NotRequired[dict]
-    market_forecast: NotRequired[dict]
-    supply_plan: NotRequired[dict]
+    yield_result: dict
+    weather_result: dict
+    aggregated_context: dict
+    price_result: dict
+    supply_chain_result: dict
 
     errors: list[str]
