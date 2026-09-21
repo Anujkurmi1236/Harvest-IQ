@@ -40,10 +40,18 @@ uv sync
 Start the API in one terminal:
 
 ```bash
-uv run fastapi dev api/main.py
+uv run python run_api.py
 ```
 
 The API is available at `http://127.0.0.1:8000`. Interactive OpenAPI documentation is available at `http://127.0.0.1:8000/docs`.
+
+The launcher also accepts a custom host or port:
+
+```bash
+uv run python run_api.py --host 0.0.0.0 --port 8080
+```
+
+Use `--reload` during development. The same values can be configured with the `HOST` and `PORT` environment variables.
 
 Start the dashboard in a second terminal:
 
