@@ -39,8 +39,6 @@ def forecast(req: ForecastRequest):
     try:
         final_state = compiled_graph.invoke(cast(HarvestState, req.model_dump()))
     except Exception as exc:
-        # a model raising here means a real bug (bad artifact path, etc.) -
-        # surface it rather than returning a fake 200
         raise HTTPException(status_code=500, detail=str(exc)) from exc
  
     return {
