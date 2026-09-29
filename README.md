@@ -37,7 +37,7 @@ From the repository root:
 uv sync
 ```
 
-Start the API in one terminal:
+Open two terminals from the repository root. In terminal 1, start the API:
 
 ```bash
 uv run python run_api.py
@@ -53,7 +53,7 @@ uv run python run_api.py --host 0.0.0.0 --port 8080
 
 Use `--reload` during development. The same values can be configured with the `HOST` and `PORT` environment variables.
 
-Start the dashboard in a second terminal:
+In terminal 2, start the Streamlit dashboard:
 
 ```bash
 uv run streamlit run dashboard/app.py
