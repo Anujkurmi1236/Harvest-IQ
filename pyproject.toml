@@ -22,4 +22,5 @@ dependencies = [
     "streamlit>=1.64.0",
     "uvicorn[standard]>=0.53.0",
     "xgboost>=3.4.0",
+    "dotenv>=0.9.9",
 ]

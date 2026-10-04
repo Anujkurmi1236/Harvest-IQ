@@ -1,6 +1,9 @@
 import requests
 import streamlit as st
 import pandas as pd
+from dotenv import load_dotenv
+
+load_dotenv()  # Load environment variables from .env file
 
 st.set_page_config(page_title="Harvest-IQ", page_icon="🌾", layout="wide")
 
@@ -98,7 +101,7 @@ with st.sidebar:
         """,
         unsafe_allow_html=True,
     )
-    api_base = st.text_input("API base URL", value="http://127.0.0.1:8000")
+    api_base = st.text_input("API base URL", value=st.secrets.get("RENDER_URL"), help="Where the backend API is running.")
 
     st.subheader("Crop & Year")
     item = st.selectbox("Crop", CANONICAL_CROPS)
