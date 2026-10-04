@@ -154,7 +154,7 @@ if run_clicked:
     }
     try:
         with st.spinner("Running yield + weather in parallel, then market → supply chain..."):
-            resp = requests.post(f"{api_base}/forecast", json=payload, timeout=30)
+            resp = requests.post(f"{api_base}/forecast", json=payload, timeout=120)
         if resp.status_code != 200:
             st.error(f"API returned {resp.status_code}: {resp.text}")
             st.session_state.result = None
@@ -164,6 +164,12 @@ if run_clicked:
         st.error(
             f"Couldn't reach the API at {api_base}. Is it running? "
             f"(`uv run fastapi dev api/main.py`)"
+        )
+        st.session_state.result = None
+    except requests.exceptions.Timeout:
+        st.error(
+            "The API took too long to respond. Render may be waking up; "
+            "please wait a moment and run the analysis again."
         )
         st.session_state.result = None
 
