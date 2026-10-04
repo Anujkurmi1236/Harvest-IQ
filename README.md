@@ -61,6 +61,24 @@ uv run streamlit run dashboard/app.py
 
 Open the URL printed by Streamlit, leave the API base URL as `http://127.0.0.1:8000`, enter the harvest details, and select **Run Analysis**.
 
+### Hosted deployment
+
+The deployed Streamlit dashboard is available at:
+
+<https://harvest-iq-jblar2crj4dzand5yqeuey.streamlit.app/>
+
+The deployed FastAPI service is available at:
+
+<https://harvest-iq-1d53.onrender.com>
+
+To connect the hosted dashboard to the API:
+
+1. Open the [Harvest-IQ Streamlit dashboard](https://harvest-iq-jblar2crj4dzand5yqeuey.streamlit.app/).
+2. In the sidebar, set **API base URL** to `https://harvest-iq-1d53.onrender.com`.
+3. Enter the harvest details and select **Run analysis**.
+
+Do not add a trailing slash to the API base URL.
+
 ## API
 
 ### Health check
