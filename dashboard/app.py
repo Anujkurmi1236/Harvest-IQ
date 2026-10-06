@@ -5,17 +5,20 @@ from dotenv import load_dotenv
 
 load_dotenv()  # Load environment variables from .env file
 
-st.set_page_config(page_title="Harvest-IQ", page_icon="🌾", layout="wide")
+st.set_page_config(page_title="Harvest IQ", page_icon=":material/eco:", layout="wide")
 
 st.markdown(
     """
     <style>
         .stApp {
-            background: linear-gradient(180deg, #f4faf5 0%, #eef6f1 100%);
+            background:
+                radial-gradient(circle at 88% 5%, rgba(154, 213, 177, 0.26), transparent 28rem),
+                linear-gradient(180deg, #f7fbf7 0%, #eef6f1 100%);
         }
         .block-container {
-            padding-top: 2rem;
+            padding-top: 1.25rem;
             padding-bottom: 3rem;
+            max-width: 1500px;
         }
         [data-testid="stSidebar"] {
             background: linear-gradient(180deg, #113b2d 0%, #1d5641 100%);
@@ -25,6 +28,53 @@ st.markdown(
         [data-testid="stSidebar"] .stSelectbox,
         [data-testid="stSidebar"] .stNumberInput {
             color: #f3f8f5 !important;
+        }
+        [data-testid="stSidebar"] [data-testid="stForm"] {
+            border: 1px solid rgba(220, 248, 226, 0.18);
+            border-radius: 0.8rem;
+            padding: 0.85rem 0.85rem 0.25rem;
+            background: rgba(8, 43, 31, 0.22);
+        }
+        [data-testid="stSidebar"] .stButton button {
+            border: 0;
+            box-shadow: 0 8px 18px rgba(7, 30, 21, 0.22);
+        }
+        [data-testid="stMetric"] {
+            background: rgba(255, 255, 255, 0.72);
+            border: 1px solid #d9e8dd;
+            border-radius: 0.8rem;
+            padding: 0.85rem 1rem;
+            box-shadow: 0 8px 22px rgba(24, 72, 56, 0.05);
+        }
+        [data-testid="stMetricLabel"] {
+            color: #557061;
+            font-size: 0.78rem;
+        }
+        [data-testid="stMetricValue"] {
+            color: #143327;
+        }
+        .section-kicker {
+            color: #3e775d;
+            font-size: 0.72rem;
+            font-weight: 800;
+            letter-spacing: 0.13em;
+            text-transform: uppercase;
+            margin-bottom: 0.25rem;
+        }
+        .empty-state {
+            border: 1px dashed #b9d3c1;
+            border-radius: 1rem;
+            padding: 2.5rem 1.5rem;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.56);
+        }
+        .empty-state h3 {
+            color: #1c513b;
+            margin: 0.5rem 0 0.35rem;
+        }
+        .empty-state p {
+            color: #557061;
+            margin: 0;
         }
         .hero-panel {
             background: linear-gradient(135deg, rgba(28, 94, 71, 0.96), rgba(56, 147, 102, 0.86));
@@ -103,37 +153,36 @@ with st.sidebar:
     )
     api_base = st.text_input("API base URL", value=st.secrets.get("RENDER_URL"), help="Where the backend API is running.")
 
-    st.subheader("Crop & Year")
-    item = st.selectbox("Crop", CANONICAL_CROPS)
-    year = st.number_input("Year", min_value=1990, max_value=2100, value=2027, step=1)
-    area_harvested = st.number_input(
-        "Area harvested (ha) — optional", min_value=0.0, value=0.0, step=1000.0,
-        help="Leave at 0 to use this crop's historical median.",
-    )
-
-    st.subheader("This Harvest")
-    quantity_tonnes = st.number_input("Quantity (tonnes)", min_value=0.1, value=10.0, step=1.0)
-    current_price_per_quintal = st.number_input(
-        "Current market price (₹/quintal)", min_value=0.0, value=2200.0, step=10.0,
-        help="Today's real mandi/farm-gate price — the model can't know this on its own.",
-    )
-    direct_to_market_distance_km = st.number_input(
-        "Distance to market (km)", min_value=0.0, value=12.0, step=1.0,
-    )
-
-    run_clicked = st.button("Run analysis", type="primary", width="stretch")
+    with st.form("forecast_inputs"):
+        st.markdown("**Forecast inputs**")
+        item = st.selectbox("Crop", CANONICAL_CROPS)
+        year = st.number_input("Target year", min_value=1990, max_value=2100, value=2027, step=1)
+        area_harvested = st.number_input(
+            "Area harvested (ha) - optional", min_value=0.0, value=0.0, step=1000.0,
+            help="Leave at 0 to use this crop's historical median.",
+        )
+        st.caption("Harvest economics")
+        quantity_tonnes = st.number_input("Quantity (tonnes)", min_value=0.1, value=10.0, step=1.0)
+        current_price_per_quintal = st.number_input(
+            "Current market price (INR/quintal)", min_value=0.0, value=2200.0, step=10.0,
+            help="Today's real mandi/farm-gate price - the model can't know this on its own.",
+        )
+        direct_to_market_distance_km = st.number_input(
+            "Distance to market (km)", min_value=0.0, value=12.0, step=1.0,
+        )
+        run_clicked = st.form_submit_button("Run analysis", type="primary", width="stretch")
 
 st.markdown(
     """
     <div class="hero-panel">
-        <div class="eyebrow">Decision Support</div>
-        <h2>Yield, weather, pricing, and logistics in one clear view</h2>
-        <p>Designed for fast planning decisions, from field risk to market timing.</p>
+        <div class="eyebrow">Field intelligence / decision support</div>
+        <h2>See the whole harvest before you make the next move.</h2>
+        <p>One grounded outlook across production, climate stress, market timing, and delivery economics.</p>
         <div>
-            <span class="info-chip">🌱 Yield</span>
-            <span class="info-chip">🌤️ Weather</span>
-            <span class="info-chip">💰 Market</span>
-            <span class="info-chip">🚚 Supply chain</span>
+            <span class="info-chip">Yield</span>
+            <span class="info-chip">Weather</span>
+            <span class="info-chip">Market</span>
+            <span class="info-chip">Supply chain</span>
         </div>
     </div>
     """,
@@ -176,7 +225,16 @@ if run_clicked:
 result = st.session_state.result
 
 if result is None:
-    st.info("Set your inputs in the sidebar and click **Run analysis** to generate a field-to-market outlook.")
+    st.markdown(
+        """
+        <div class="empty-state">
+            <div style="font-size: 2rem; color: #2b8159;">✦</div>
+            <h3>Your harvest outlook is ready to generate</h3>
+            <p>Choose a crop and enter the harvest economics in the sidebar to see the forecast.</p>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
     st.stop()
 
 yield_r = result.get("yield") or {}
@@ -192,14 +250,15 @@ if failed_stages:
     st.warning(f"These stages did not complete successfully: {', '.join(failed_stages)}. "
                f"See their tabs for details.")
 
+st.markdown('<div class="section-kicker">Run snapshot</div>', unsafe_allow_html=True)
 summary_cols = st.columns(4)
-summary_cols[0].metric("Crop", item)
-summary_cols[1].metric("Year", str(year))
-summary_cols[2].metric("Quantity", f"{quantity_tonnes:,.0f} t")
-summary_cols[3].metric("Market distance", f"{direct_to_market_distance_km:,.0f} km")
+summary_cols[0].metric("Crop", item, border=True)
+summary_cols[1].metric("Target year", str(year), border=True)
+summary_cols[2].metric("Quantity", f"{quantity_tonnes:,.0f} t", border=True)
+summary_cols[3].metric("Market distance", f"{direct_to_market_distance_km:,.0f} km", border=True)
 
 tab_yield, tab_weather, tab_market, tab_supply, tab_notes = st.tabs(
-    ["🌱 Yield", "🌡️ Weather", "💰 Market", "🚚 Supply Chain", "📋 Assumptions & Notes"]
+    [":material/grass: Yield", ":material/thermostat: Weather", ":material/monitoring: Market", ":material/local_shipping: Supply chain", ":material/description: Assumptions & notes"]
 )
 
 with tab_yield:
