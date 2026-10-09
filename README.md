@@ -61,6 +61,24 @@ uv run streamlit run dashboard/app.py
 
 Open the URL printed by Streamlit, leave the API base URL as `http://127.0.0.1:8000`, enter the harvest details, and select **Run Analysis**.
 
+## Screenshots
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="screenshots/Screenshot from 2026-10-08 22-28-28.png" alt="Harvest-IQ dashboard form" width="420" /></td>
+      <td><img src="screenshots/Screenshot from 2026-10-08 22-28-54.png" alt="Harvest-IQ dashboard input validation" width="420" /></td>
+    </tr>
+    <tr>
+      <td><img src="screenshots/Screenshot from 2026-10-08 22-29-07.png" alt="Harvest-IQ yield and weather analysis" width="420" /></td>
+      <td><img src="screenshots/Screenshot from 2026-10-08 22-29-33.png" alt="Harvest-IQ market forecast results" width="420" /></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><img src="screenshots/Screenshot from 2026-10-08 22-29-47.png" alt="Harvest-IQ supply-chain optimization results" width="840" /></td>
+    </tr>
+  </table>
+</div>
+
 ### Hosted deployment
 
 The deployed Streamlit dashboard is available at:
