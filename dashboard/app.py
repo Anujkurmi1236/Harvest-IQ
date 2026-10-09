@@ -151,7 +151,7 @@ with st.sidebar:
         """,
         unsafe_allow_html=True,
     )
-    api_base = st.text_input("API base URL", value=st.secrets.get("RENDER_URL"), help="Where the backend API is running.")
+    api_base = st.text_input("API base URL", value="http://0.0.0.0:8080", help="Where the backend API is running.")
 
     with st.form("forecast_inputs"):
         st.markdown("**Forecast inputs**")
