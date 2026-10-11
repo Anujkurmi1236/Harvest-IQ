@@ -3,6 +3,15 @@ import streamlit as st
 import pandas as pd
 from dotenv import load_dotenv
 
+from dashboard.summaries import (
+    HINDI,
+    summarize_market,
+    summarize_overall,
+    summarize_supply_chain,
+    summarize_weather,
+    summarize_yield,
+)
+
 load_dotenv()  # Load environment variables from .env file
 
 st.set_page_config(page_title="Harvest IQ", page_icon=":material/eco:", layout="wide")
@@ -152,6 +161,11 @@ with st.sidebar:
         unsafe_allow_html=True,
     )
     api_base = st.text_input("API base URL", value="http://0.0.0.0:8080", help="Where the backend API is running.")
+    summary_language = st.selectbox(
+        "Summary language",
+        ["English", HINDI],
+        help="Choose the language used for farmer-friendly explanations.",
+    )
 
     with st.form("forecast_inputs"):
         st.markdown("**Forecast inputs**")
@@ -273,6 +287,7 @@ with tab_yield:
             st.bar_chart(pd.DataFrame({
                 "kg/ha": [yield_r["low_kg_ha"], yield_r["predicted_yield_kg_ha"], yield_r["high_kg_ha"]],
             }, index=["Low", "Predicted", "High"]))
+        st.info(summarize_yield(item, yield_r, summary_language), icon=":material/lightbulb:")
     else:
         st.error(yield_r.get("error", "Yield prediction failed."))
 
@@ -291,6 +306,7 @@ with tab_weather:
                     pd.DataFrame.from_dict(weather_r["stress_components"], orient="index", columns=["score"]),
                     width='stretch',
                 )
+        st.info(summarize_weather(weather_r, summary_language), icon=":material/lightbulb:")
     else:
         st.error(weather_r.get("error", "Weather prediction failed."))
 
@@ -309,6 +325,7 @@ with tab_market:
                     f"{market_r.get('last_known_index_level'):.1f}"
                 )
             st.caption("Index base: 2014–2016 = 100. This is a relative price index, not a ₹ currency figure.")
+        st.info(summarize_market(market_r, summary_language), icon=":material/lightbulb:")
     else:
         st.error(market_r.get("error", "Market forecast failed."))
 
@@ -342,6 +359,7 @@ with tab_supply:
                 ),
                 width='stretch',
             )
+        st.info(summarize_supply_chain(supply_r, summary_language), icon=":material/lightbulb:")
     else:
         st.error(supply_r.get("error", "Supply chain optimization failed."))
 
@@ -358,3 +376,16 @@ with tab_notes:
         st.table(pd.DataFrame(all_notes, columns=["Stage", "Note"]))
     else:
         st.write("No assumptions or fallbacks were needed for this run.")
+
+st.header("What this means for you", divider=True)
+st.info(
+    summarize_overall(
+        item,
+        yield_r,
+        weather_r,
+        market_r,
+        supply_r,
+        summary_language,
+    ),
+    icon=":material/agriculture:",
+)
