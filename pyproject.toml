@@ -23,4 +23,5 @@ dependencies = [
     "uvicorn[standard]>=0.53.0",
     "xgboost>=3.4.0",
     "dotenv>=0.9.9",
+    "groq>=1.7.0",
 ]
