@@ -3,6 +3,7 @@ import streamlit as st
 import pandas as pd
 from dotenv import load_dotenv
 
+from dashboard.chatbot import answer_question
 from dashboard.summaries import (
     HINDI,
     summarize_market,
@@ -223,6 +224,7 @@ if run_clicked:
             st.session_state.result = None
         else:
             st.session_state.result = resp.json()
+            st.session_state.chat_messages = []
     except requests.exceptions.ConnectionError:
         st.error(
             f"Couldn't reach the API at {api_base}. Is it running? "
@@ -389,3 +391,41 @@ st.info(
     ),
     icon=":material/agriculture:",
 )
+
+st.header("Ask Harvest-IQ", divider=True)
+st.caption(
+    "Ask questions about this forecast. Answers are grounded in the results above; "
+    "they are not a replacement for local agricultural advice."
+)
+
+if "chat_messages" not in st.session_state:
+    st.session_state.chat_messages = []
+
+for message in st.session_state.chat_messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
+
+question = st.chat_input(
+    "For example: should I sell now or store this crop?",
+    submit_mode="disable",
+)
+
+if question:
+    st.session_state.chat_messages.append({"role": "user", "content": question})
+    with st.chat_message("user"):
+        st.markdown(question)
+
+    with st.chat_message("assistant", avatar=":material/eco:"):
+        try:
+            with st.spinner("Checking the forecast context..."):
+                answer = answer_question(
+                    question=question,
+                    forecast=result,
+                    history=st.session_state.chat_messages[:-1],
+                )
+            st.markdown(answer)
+            st.session_state.chat_messages.append(
+                {"role": "assistant", "content": answer}
+            )
+        except Exception as exc:
+            st.error(f"Chatbot error: {exc}")

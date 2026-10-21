@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "fastapi[standard]>=0.141.1",
+    "groq>=0.31.0",
     "importnb>=2023.11.1",
     "ipykernel>=7.3.0",
     "lxml>=6.0.2",

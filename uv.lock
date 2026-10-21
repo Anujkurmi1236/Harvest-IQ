@@ -607,6 +607,7 @@ dependencies = [
 requires-dist = [
     { name = "dotenv", specifier = ">=0.9.9" },
     { name = "fastapi", extras = ["standard"], specifier = ">=0.141.1" },
+    { name = "groq", specifier = ">=0.31.0" },
     { name = "groq", specifier = ">=1.7.0" },
     { name = "importnb", specifier = ">=2023.11.1" },
     { name = "ipykernel", specifier = ">=7.3.0" },

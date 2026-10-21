@@ -61,6 +61,46 @@ uv run streamlit run dashboard/app.py
 
 Open the URL printed by Streamlit, leave the API base URL as `http://127.0.0.1:8000`, enter the harvest details, and select **Run Analysis**.
 
+### Enable the Groq chatbot
+
+The dashboard includes a grounded **Ask Harvest-IQ** chat section. It sends the
+user's question, recent chat history, and the latest structured forecast result
+to Groq. The chatbot explains the existing model outputs; it does not replace
+the yield, weather, market, or supply-chain models.
+
+1. Create a Groq API key in the Groq console.
+2. Copy the example environment file:
+
+   ```bash
+   cp .env.example .env
+   ```
+
+3. Set the key in `.env`:
+
+   ```dotenv
+   GROQ_API=your_groq_api_key
+   ```
+
+4. Install the updated dependencies and start the app:
+
+   ```bash
+   uv sync
+   uv run streamlit run dashboard/app.py
+   ```
+
+5. Run an analysis first. Then ask questions such as:
+   - `Should I sell now or store this crop?`
+   - `Why is the weather stress high?`
+   - `What does the market index mean?`
+
+The default chatbot model is `allam-2-7b`. If that model is not enabled for
+your Groq account, change the `model` default in
+[`dashboard/chatbot.py`](dashboard/chatbot.py) to a model available in your
+Groq console.
+
+For Streamlit Cloud, add `GROQ_API` under **App settings → Secrets** instead
+of committing a `.env` file. Never commit the real API key.
+
 ## Screenshots
 
 <div align="center">
@@ -170,4 +210,3 @@ The checked-in model artifacts under each `ml/*/output` directory are used at ru
 - The market result is an index with base period 2014-2016 = 100; it is not a rupee-denominated forecast.
 - Crop names come from the source datasets. The dashboard provides a canonical list and maps supported names to the supply-chain dataset's naming convention.
 - Some stages may use documented fallback values when a crop or input is not represented sufficiently in the source data. These notes are returned in the API response and displayed in the dashboard.
-
