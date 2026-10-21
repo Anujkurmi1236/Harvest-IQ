@@ -3,15 +3,26 @@ import streamlit as st
 import pandas as pd
 from dotenv import load_dotenv
 
-from dashboard.chatbot import answer_question
-from dashboard.summaries import (
-    HINDI,
-    summarize_market,
-    summarize_overall,
-    summarize_supply_chain,
-    summarize_weather,
-    summarize_yield,
-)
+if __package__:
+    from .chatbot import answer_question
+    from .summaries import (
+        HINDI,
+        summarize_market,
+        summarize_overall,
+        summarize_supply_chain,
+        summarize_weather,
+        summarize_yield,
+    )
+else:
+    from chatbot import answer_question
+    from summaries import (
+        HINDI,
+        summarize_market,
+        summarize_overall,
+        summarize_supply_chain,
+        summarize_weather,
+        summarize_yield,
+    )
 
 load_dotenv()  # Load environment variables from .env file
 
