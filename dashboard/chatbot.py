@@ -35,7 +35,7 @@ def answer_question(
     question: str,
     forecast: dict[str, Any],
     history: list[ChatCompletionMessageParam],
-    model: str = "allam-2-7b",
+    model: str = "qwen/qwen3.8-27b",
 ) -> str:
     """Return a response grounded in the latest forecast result."""
     context = json.dumps(forecast, ensure_ascii=False, indent=2)
